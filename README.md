@@ -1,21 +1,21 @@
 # List_HComic
 ===============
 ###
-ª¦ÂÎ
+çˆ¬èŸ²
 
-###ª¦ÂÎ¥Ø¼Ğ
+###çˆ¬èŸ²ç›®æ¨™
 wnacg
 hdm2011
 nhentai
 
-http://www.daito-i.com/top/index.php		´²½g»P³æ¦æ¥»¼ĞÃD¡A2010¥H«e¨S¦³
-http://comiclist.jp/index.php				³æ¦æ¥»¬O§_¦¨¤H¦V¡A©Mdaito¤¬¸É2009«e³æ¦æ¥»
-http://www.toranoana.jp/cgi-bin/R2/d_search.cgi	¦P¤H
-http://nagomi.ne.jp/web/top/			¦P¤H
-http://www.doujinshi.org/				¦P¤H´²½g³æ¦æ¥»
-http://www.dlsite.com/books/			¹q¤lÂø»x
-http://www.getchu.com/				¨ä¥L
-http://www.dmm.co.jp/dc/book/			¹q¤lÂø»x»P¨ä¥L
+http://www.daito-i.com/top/index.php		æ•£ç¯‡èˆ‡å–®è¡Œæœ¬æ¨™é¡Œï¼Œ2010ä»¥å‰æ²’æœ‰
+http://comiclist.jp/index.php				å–®è¡Œæœ¬æ˜¯å¦æˆäººå‘ï¼Œå’Œdaitoäº’è£œ2009å‰å–®è¡Œæœ¬
+http://www.toranoana.jp/cgi-bin/R2/d_search.cgi	åŒäºº
+http://nagomi.ne.jp/web/top/			åŒäºº
+http://www.doujinshi.org/				åŒäººæ•£ç¯‡å–®è¡Œæœ¬
+http://www.dlsite.com/books/			é›»å­é›œèªŒ
+http://www.getchu.com/				å…¶ä»–
+http://www.dmm.co.jp/dc/book/			é›»å­é›œèªŒèˆ‡å…¶ä»–
 
-
-
+key.txt
+åŠå½¢æ²’æœ‰ç¬¦è™Ÿ

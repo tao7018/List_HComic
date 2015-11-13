@@ -1,151 +1,133 @@
 # -*- coding: utf-8 -*- 
-import urllib , requests , sys ,string
+import urllib , requests , sys ,string ,time
 from bs4 import BeautifulSoup
 from bs4 import SoupStrainer
 
-#爬comiclist
-#測試用：源五郎
+#comiclist
 #fkey作者來源key.txt
 #fcomiclist結果key_comiclist.text
 
+#輸出格式：
+#comiclist
+#!作者
+#!總筆數
+#==類別_數量_中文敘述
+#條目
+
+#comiclist常數
+pnum = 30#頁顯示數量
+mlink = 'http://comiclist.jp/'#前綴網址
+
 fkey = open('key.txt', 'r')
-key = fkey.readline()
+key = fkey.readline()#key=作者
 fkey.close()
 
 #檢查BOM
 if '%EF%BB%BF' in urllib.quote(key):
     print 'fuck ms'
 
-#key=作者
-#key = '源五郎'
-#key2 = urllib.quote(key.decode('utf8').encode('sjis'))
-#key3 = urllib.unquote(key2.decode('sjis').encode('utf8'))
-#網址用
-#key4 = urllib.quote(key)
-#print key4
-
-#http://comiclist.jp/index.php?p=s&mode=ss&type=title&keyword=%E4%B8%8A%E8%97%A4%E6%94%BF%E6%A8%B9&andor=and&maxline=30&pgn=3&pgn=1
-#&andor=and&maxline=無影響&pgn=無影響&pgn=頁
-#link = "http://comiclist.jp/index.php?p=s&mode=ss&type=title&keyword= + urllib.quote(key) + "&andor=and&maxline=30&pgn=1&pgn=" + page
 link = "http://comiclist.jp/index.php?p=s&mode=ss&keyword=" + urllib.quote(key) + "&type=title"
 res = requests.get(link)
 
-#亂碼處理
-res.encoding =  res.apparent_encoding
-#縮小檢索範圍
-only_a_tags = SoupStrainer(id='listArea')
+res.encoding =  res.apparent_encoding#亂碼處理
+only_a_tags = SoupStrainer(id='listArea')#縮小檢索範圍
+soup = BeautifulSoup(res.text ,"lxml",  parse_only=only_a_tags)#.prettify()#prettify_縮進顯示html
 
-soup = BeautifulSoup(res.text ,"lxml",  parse_only=only_a_tags)#.prettify()
-
+#換頁
 def next(page = 2):
+    #http://comiclist.jp/index.php?p=s&mode=ss&type=title&keyword=%E4%B8%8A%E8%97%A4%E6%94%BF%E6%A8%B9&andor=and&maxline=30&pgn=3&pgn=1
+    #&andor=and&maxline=無影響&pgn=無影響&pgn=頁
     link = "http://comiclist.jp/index.php?p=s&mode=ss&type=title&keyword=" + urllib.quote(key) + "&andor=and&maxline=30&pgn=1&pgn=" + str(page)
     res = requests.get(link)
     res.encoding =  res.apparent_encoding
     only_a_tags = SoupStrainer(id='listArea')
     soup = BeautifulSoup(res.text ,"lxml",  parse_only=only_a_tags)#.prettify()
     return soup
-    
+
+#全轉半
+def Q2B(ustring):
+    fs=u'０１２３４５６７８９ＱｑＷｗＥｅＲｒＴｔＹｙＵｕＩｉＯｏＰｐＡａＳｓＤｄＦｆＧｇＨｈＪｊＫｋＬｌＺｚＸｘＣｃＶｖＢｂＮｎＭｍ'
+    hs=u'0123456789QqWwEeRrTtYyUuIiOoPpAaSsDdFfGgHhJjKkLlZzXxCcVvBbNnMm'
+    rstr = ''
+    for tm in ustring:
+        if fs.find(tm)+1:
+            tm = hs[fs.find(tm)]
+        rstr = rstr + tm
+    ustring = rstr
+    return ustring
 
 #資料處理
 def findbook(soup , page = 1):
     a =0
-    #for soup.select('strong')[a]:
     for strong in soup.select('strong'):
-            #print soup.select('strong')[a].text
             cname = soup.select('.list-name')[a].text
             cbook = soup.select('strong')[a].text
+            #print soup.select('strong')[a]
             cdata = soup.select('.list-day')[a].text
             
             #作者處理
-            #画_著_無後綴
-            check = 0
-            cname = cname.replace(u'　','')
-            #while對split切不出不視為陣列？
+            check = 0#非目標作者
+            cname = cname.replace(u'　','')#移除全形空格
+            cname = Q2B(cname)
             if u'］' not in cname:
                 cname = cname + u'］'
-            sname = cname.split(u'］')
+            sname = cname.split(u'］')#切拆作者
+            
+            s_name = []
+            for temp in soup.select('.list-name')[a].select('a'):
+                temp = temp.text
+                temp = temp.replace(u'　','')#移除全形空格
+                temp = Q2B(temp)
+                s_name.append(temp)
+            s_name.append('')#避while錯誤
+            
             b = 0
-            #print sname[b]
             name = ''
-            
-            #'''
-            while len(sname[b]) > 0:
-            #while sname[b]:
-            #for sname[b]:
-                #s_name = sname[b]
-                ssname = sname[b].split(u'［')
-                
-                temp = ssname[0]
-                #print len(key) , key , len(temp.encode('utf8')) , temp.encode('utf8')
-                
-                #if key == ssname[0]:
-                #符合作者
-                if key == temp.encode('utf8'):
-                    check = 1
-                    #符合後綴
-                    if (u'画' in ssname[1] )or (u'著' in ssname[1] ):
-                        check = 2
-                        #print 'ok'
-                        
+            while len(s_name[b]) > 0:
+                ##while對split切不出不視為陣列？
+                if u'［' not in s_name[b]:
+                    s_name[b] = s_name[b] + u'［'
+                ssname = s_name[b].split(u'［')#切拆作者後綴
+                #print ssname
+                tname = ssname[0]
+                if key == tname.encode('utf8'):#符合作者
+                    #print 'ok'
+                    check = 1#目標作者
+                    if (u'画' in ssname[1] )or (u'著' in ssname[1] ):#符合後綴
+                        check = 2#符合後綴
+                name = name + ssname[0] + u'、'#作者串接 
                 b = b + 1
-                #ssname[0] =  u'、' + ssname[0]
-                #作者疊加
-                name = name + ssname[0] + u'、'
-                #print ssname[0]
-            #'''
-            #多於分號處理
-            name = name.rstrip(u'、')
-            #print name
+            name = name.rstrip(u'、')#多餘分號處理
             
-            #單作者檢查
-            '''
-            if soup.select('.list-name')[a].br:
-                #print '多作者處理'
-            '''            
-            
-            #書名
+            #書名處理
             book = cbook
-            if (u'（成）' in cbook) and (check == 2):
+            if (u'（成）' in cbook) and (check == 2):#去前綴
                 check = 3
                 book = cbook.replace(u'（成）','')
-                #print 'adult' 
-            #print cbook
             
-            #日期
-            #print soup.select('.list-day')[a]
-            #print cdata
+            #日期處理
             cdata = cdata.rstrip()
-            if len(cdata) < 8:
-                cdata = '0000/00/00'
-                check = 4
-            #print cbook + 'check' + str(check) +'\n' + cdata
-            
-            #重複日期判斷
+            if len(cdata) < 8:#無日期
+                cdata = '0000/00/00'#填入日期
+                check = 4#新作
             data = cdata[:10]
-            while listdata.count(data):
-            #for data in listdata:
-                data = data[:8] + str(int(data[8:]) + 1)
+            while listdata.count(data):#重複日期判斷
+                data = data[:8] + str(int(data[8:]) + 1).rjust(2,'0')#日期+1_十位數填0
             listdata.append(data)
             
-            if (u'巻' in cdata) :#and (check > 0):
-            #if soup.select('.list-day')[a].br:
-                #print '卷處理' + str(cdata[10:-1])
-                #冊數
-                bn = cdata[10:-1]
-            #print name.encode('utf8') , urllib.quote(key)
-            #print urllib.quote(name.encode('utf8'))
+            #多卷處理
+            if (u'巻' in cdata) and (int(cdata[10:-1]) > 1):
+                bnum = cdata[10:-1]#冊數
+                book = book + '[' + bnum + ']'
             
-            #存檔處理
-            #if key == name.encode('utf8'):
+            #書名連結
+            blink = ''
+            blink = soup.select('.list-book')[a].select('a')[0].get('href')
+            
+            #字典新增
             if check > 0:
-                #print key ,  sname[0]
-                #print soup.select('.list-day')[a].text , soup.select('.list-name')[a].text
-                #fout.write(soup.select('.list-day')[a].text.encode('utf8') + cbook.encode('utf8')  + '\n')
-                
-                #fout.write(cdata.encode('utf8') + cbook.encode('utf8')  + '\n')
-                #字典新增
-                #dict1.setdefault('b',2)
                 if check == 1:
+                    book = book + '_' + name + '\n' + mlink +blink#書名+作者+網址
                     dict1.setdefault(data,book)
                 elif check ==2:
                     dict2.setdefault(data,book)
@@ -153,84 +135,85 @@ def findbook(soup , page = 1):
                     dict3.setdefault(data,book)
                 elif check ==4:
                     dict4.setdefault(data,book)
-            #print key ,  sname[0]
-            
-            
-            
-            #fout.write(soup.select('strong')[a].text.encode('utf8') + '\n')
-            
             a = a + 1
             #print a
-    #print listdata[:]
     #print '========'
-            
 
-#資料筆數
+########
+
+#資料筆數_是否數字
 if soup.find_all('b')[1].text.isdigit():
-#if soup.find_all('b')[1].text > 0:
-    #print key , soup.find_all('b')[1].text , '筆資料\n========'
-    #print soup.find_all('b')
-    if soup.find_all('b')[1].text > 30:
+    if int(soup.find_all('b')[1].text) > pnum:
         print 'BIG'
-    fout = open(key.decode('utf8') + '_comiclist.txt', 'w')
-    fout.write('out\n')
-    #findbook()
-    p = 0
-    #建空字典陣列
+    
+    fout = open(key.decode('utf8') + '_comiclist.txt', 'w')#寫入模式開檔
+    fout.write('comiclist\n')#comiclist
+    print key.decode('utf8') , soup.find_all('b')[1].text , 'num\n========'
+    time.sleep(1)
+    fout.write('!' + key + '\n!總筆數' + soup.find_all('b')[1].text.encode('utf8') + '\n')
+    
+    p = 0#頁
+    #建空輸出用字典與陣列
     dict1={}#作者無後綴
-    dict2={}#作者一般向
+    dict2={}#作者一般向青年向
     dict3={}#作者成人向
     dict4={}#作者成人向新刊
+    listbnum=[]
+    bnum = ''#卷
     listdata = []
-    #num = soup.find_all('b')[1].text
-    while (int(soup.find_all('b')[1].text) - p * 30) > 0:
-        #ggg(p)
+    
+    #資料處理
+    while (int(soup.find_all('b')[1].text) - p * pnum) > 0:
         p = p + 1
-        soup = next(p)
-        findbook(soup)
+        print 'page:' + str(p)
+        soup = next(p)#頁
+        findbook(soup)#資料處理
+        time.sleep(1)
     
     #日期排序
     listdata.sort()
     
     temp = ''
-    #成人向輸出dict3
+    #dict3_成人向輸出
+    fout.write('==adult_' + str(len(dict3)) +'_成人向\n')
     for temp in listdata:
-    #for temp in dict3.itervalues():
         if dict3.get(temp):
-            fout.write(temp.encode('utf8') +dict3[temp].encode('utf8')  + '\n')
-            #print temp , dict3[temp]
+            fout.write(dict3[temp].encode('utf8')  + '\n')
+            if dict3[temp].count(u']',-2):
+                listbnum.append(dict3[temp])
     
-    #新刊輸出dict4
-    fout.write('==新\n')
+    #輸出多卷
+    fout.write('==adultnum_' + str(len(listbnum)) +'_成人向多卷\n')
+    for temp in listbnum:
+        fout.write(temp.encode('utf8') + '\n')
+    
+    #dict4_新刊輸出
+    fout.write('==new_' + str(len(dict4)) +'_新\n')
     for temp in listdata:
-    #for temp in dict3.itervalues():
         if dict4.get(temp):
             fout.write(temp.encode('utf8') +dict4[temp].encode('utf8')  + '\n')
-            #print temp , dict3[temp]
     
-    #一般向dict2
-    fout.write('==一般\n')
+    #dict2_一般向青年向
+    fout.write('==nomal_' + str(len(dict2)) +'_一般向青年向\n')
     for temp in listdata:
-    #for temp in dict3.itervalues():
         if dict2.get(temp):
-            fout.write(temp.encode('utf8') +dict2[temp].encode('utf8')  + '\n')
-            #print temp , dict3[temp]
+            fout.write(dict2[temp].encode('utf8')  + '\n')
     
-    #其他輸出dict1
-    fout.write('==不明\n')
+    #dict1_其他輸出
+    fout.write('==unknow_' + str(len(dict1)) +'_不明\n')
     for temp in listdata:
-    #for temp in dict3.itervalues():
         if dict1.get(temp):
             fout.write(temp.encode('utf8') +dict1[temp].encode('utf8')  + '\n')
-            #print temp , dict3[temp]
-    
     
     fout.close()
-#print soup.select('.search_page_link_info')[1].text
-#print soup.select('.search_page_link_info')[1]
+    print 'ok'
+elif soup.find_all('b')[1].text:
+    print '同人'
 
-#爬蟲重點內容
-#print soup.select('#listBOX-search')[0].text
-
-#print soup.select('td[class^="list-line"]')
-#print res.text
+#結束讀秒
+x=3
+while x!=0:
+    print x,'..',
+    x=x-1
+    time.sleep(1)
+print 'end'
