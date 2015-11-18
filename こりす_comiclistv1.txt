@@ -1,0 +1,13 @@
+comiclist
+!こりす
+!總筆數3
+==adult_2_成人向
+ラブ・ペロ
+しちゃってもいいよ・
+==adultnum_0_成人向多卷
+==new_0_新
+==nomal_0_一般向青年向
+==unknow_0_不明
+==other_1_它項
+2010/03/19（成）Ｌｙｃｏｒｉｓ_スミヤ
+http://comiclist.jp/index.php?p=td&mode=ss&hcd=1&scd=4&tcd=1007630&tscd=100&type=title&keyword=%E3%81%93%E3%82%8A%E3%81%99&andor=and&maxline=30&pgn=1

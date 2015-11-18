@@ -1,0 +1,8 @@
+daito-i
+!こりす
+!總筆數30
+==adult_0_成人向
+==adultnum_0_成人向多卷
+==new_0_新
+==nomal_0_一般向青年向
+==unknow_0_不明
