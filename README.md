@@ -17,5 +17,9 @@ http://www.dlsite.com/books/			電子雜誌
 http://www.getchu.com/				其他
 http://www.dmm.co.jp/dc/book/			電子雜誌與其他
 
+####檔案
 key.txt
 半形沒有符號
+
+comiclist.py
+getchu.py
