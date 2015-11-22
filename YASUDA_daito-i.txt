@@ -1,0 +1,18 @@
+daito-i
+!YASUDA
+!總筆數3
+==new_0_新刊
+==book_0_單行本
+==adult_3_雜誌
+ＣＯＭＩＣ　ＬＯ[2011年12月号]_あげはチョウあいしてる__
+!1!http://www.daito-i.com/top/magazine/detail.php?code=4910037691217
+ＣＯＭＩＣ　ＬＯ[2012年10月号]_かなちゃんっ憑かれてる！！__
+!1!http://www.daito-i.com/top/magazine/detail.php?code=4910037691026
+ＣＯＭＩＣ　ＬＯ[2013年4月号]_小鳥も鳴かずば　前編__
+!1!http://www.daito-i.com/top/magazine/detail.php?code=4910037690432
+==art_0_作畫擔任
+==other_0_其他
+==fd32_3_比對結果
+小鳥も鳴かずば　前編
+かなちゃんっ憑かれてる！！
+あげはチョウあいしてる

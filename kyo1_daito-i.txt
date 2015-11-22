@@ -1,0 +1,18 @@
+daito-i
+!kyo1
+!總筆數3
+==new_0_新刊
+==book_0_單行本
+==adult_3_雜誌
+コミックメガストア[2010年6月号]_パピイラブ__
+!1!http://www.daito-i.com/top/magazine/detail.php?code=4910036150609
+コミックメガストア[2010年12月号]_セカンドコンタクト__
+!1!http://www.daito-i.com/top/magazine/detail.php?code=4910036151200
+ＣＯＭＩＣ　ＢｕｇＢｕｇ[Vol．2　2012年9月号]_未来にキスを！__
+!1!http://www.daito-i.com/top/magazine/detail.php?code=4910175060920
+==art_0_作畫擔任
+==other_0_其他
+==fd32_3_比對結果
+未来にキスを！
+セカンドコンタクト
+パピイラブ

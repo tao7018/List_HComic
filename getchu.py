@@ -56,7 +56,8 @@ def next(page = 2):
     
     only_a_tags = SoupStrainer("ul", class_="display")#縮小處理範圍
     #先html.parser解析與縮小範圍，再以字串給lxml
-    soup = BeautifulSoup(str(BeautifulSoup(res.text,"html.parser",  parse_only=only_a_tags)),"lxml")
+    #soup = BeautifulSoup(str(BeautifulSoup(res.text,"html.parser",  parse_only=only_a_tags)),"lxml")
+    soup = BeautifulSoup(res.text,"html.parser",  parse_only=only_a_tags)
     
     return soup
 
@@ -86,11 +87,17 @@ def findbook(soup , page = 1):
     a =0
     check = 0
     for li in soup.select('li'):
-        ctype = soup.select('.orangeb')[a].text
-        cbook = soup.select('.blueb')[a].text
-        cdata = soup.select('.orangeb')[a].next_sibling.next_sibling[5:]
-        #print li
+        sou = BeautifulSoup(str(li),"lxml")
+        ctype = sou.select('.orangeb')[0].text
+        cbook = sou.select('.blueb')[0].text
+        cdata = sou.select('.orangeb')[0].next_sibling.next_sibling[5:]
         #print ctype,cbook,cdata
+        
+        #網址
+        blink = ''
+        blink = sou.select('.blueb')[0].get('href')
+        blink = mlink + blink[3:]
+        #print blink
         
         #類型
         if u'・' in ctype:
@@ -116,37 +123,34 @@ def findbook(soup , page = 1):
         '''
         typea = ['[BOOKS]','[雑誌]','[同人]']
         typeb = ['[アニメ]']
-        typec = ['[PCゲーム]','[DVD-PG]']
+        typec = ['[PCゲーム]','[DVDPG]']
         #其他
         グッズ
         アダルトグッズ
         音楽CD
         グラビア
         実写
+        #寫做DVD-PG，getchu用DVDPG
         '''
-        #網址
-        blink = ''
-        blink = soup.select('.blueb')[a].get('href')
-        blink = mlink + blink[3:]
-        #print blink
         
         #寫入dict
         book = dtype + '_' + book + '_' + '\n!' + blink#類形+書名+網址
         if check == 4:
             dict4.setdefault(data,book)
         elif dtype in [u'[BOOKS]',u'[雑誌]',u'[同人]'] :
+            if (u'ノベルズ' in book):
+                book= book[:book.find(u']')]+u'_ノベルズ]'+book[book.find(u']'):]
+            elif (u'文庫' in book):
+                book= book[:book.find(u']')]+u'_文庫]'+book[book.find(u']'):]
             dict1.setdefault(data,book)
         elif dtype in[u'[アニメ]']:
             dict2.setdefault(data,book)
-        elif dtype in [u'[PCゲーム]',u'[DVD-PG]']:
+        elif dtype in [u'[PCゲーム]',u'[DVDPG]']:
             dict3.setdefault(data,book)
         else:
             dict5.setdefault(data,book)
         
         a = a + 1
-        #print key ,  sname[0]
-        #print a
-    #print listdata[:]
     #print '========'
     #return
 
@@ -159,9 +163,9 @@ if pn.isdigit():
     if int(pn) > pnum:
         print 'BIG'
     
-    fout = open(key.decode('utf8') + '_getchu.txt', 'w')#寫入模式開檔
+    fout = open(key.decode('utf8') + '_getchuv1.txt', 'w')#寫入模式開檔
     fout.write('getchu\n')#getchu
-    print key.decode('utf8') , pn , 'num\n========'
+    print key.decode('utf8') , pn , 'num\n========v1'
     time.sleep(1)
     fout.write('!' + key + '\n!總筆數' + pn.encode('utf8') + '\n')
     
@@ -191,22 +195,19 @@ if pn.isdigit():
     #dict1_BOOKS,雑誌,同人輸出
     fout.write('==book_' + str(len(dict1)) +'_BOOKS,雑誌,同人\n')
     save(dict1)
-    
     #dict2_アニメ輸出
     fout.write('==anime_' + str(len(dict2)) +'_アニメ\n')
     save(dict2)
-    
     #dict3_PCゲーム,DVD-PG輸出
     fout.write('==game_' + str(len(dict3)) +'_PCゲーム,DVD-PG\n')
     save(dict3)
-    
     #dict4_新輸出
     fout.write('==new_' + str(len(dict4)) +'_新\n')
     save(dict4)
-    
     #dict5_其他輸出
     fout.write('==other_' + str(len(dict5)) +'_其他\n')
     save(dict5)
+    
     #sys.exit()################
     fout.close()
     print 'ok'
