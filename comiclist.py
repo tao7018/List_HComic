@@ -54,11 +54,13 @@ def Q2B(ustring):
             tm = hs[fs.find(tm)]
         rstr = rstr + tm
     ustring = rstr
+    ustring=ustring.lower()
     return ustring
 
 #資料處理
 def findbook(soup , page = 1):
     a =0
+    check=0
     for strong in soup.select('strong'):
         cname = soup.select('.list-name')[a].text
         cbook = soup.select('strong')[a].text
@@ -146,6 +148,7 @@ def findbook(soup , page = 1):
     #print '========'
 
 ########
+key=key.lower()
 
 #資料筆數_是否數字
 if soup.find_all('b')[1].text.isdigit():

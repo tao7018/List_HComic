@@ -71,6 +71,19 @@ def Q2B(ustring):
             tm = hs[fs.find(tm)]
         rstr = rstr + tm
     ustring = rstr
+    ustring=ustring.lower()
+    return ustring
+#半轉全
+def B2Q(ustring):
+    fs=u'０１２３４５６７８９ＱｑＷｗＥｅＲｒＴｔＹｙＵｕＩｉＯｏＰｐＡａＳｓＤｄＦｆＧｇＨｈＪｊＫｋＬｌＺｚＸｘＣｃＶｖＢｂＮｎＭｍ'
+    hs=u'0123456789QqWwEeRrTtYyUuIiOoPpAaSsDdFfGgHhJjKkLlZzXxCcVvBbNnMm'
+    rstr = ''
+    ustring=ustring.lower()
+    for tm in ustring:
+        if hs.find(tm)+1:
+            tm = fs[hs.find(tm)]
+        rstr = rstr + tm
+    ustring = rstr
     return ustring
 
 #資料儲存
@@ -156,6 +169,7 @@ def findbook(soup , page = 1):
 
 ########
 
+key=key.lower()
 pn = soup.select('.s_condition')[0].select('b')[0].text#資料筆數
 #資料筆數_是否數字
 if pn.isdigit():

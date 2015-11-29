@@ -77,12 +77,14 @@ def Q2B(ustring):
             tm = hs[fs.find(tm)]
         rstr = rstr + tm
     ustring = rstr
+    ustring=ustring.lower()
     return ustring
 #半轉全
 def B2Q(ustring):
     fs=u'０１２３４５６７８９ＱｑＷｗＥｅＲｒＴｔＹｙＵｕＩｉＯｏＰｐＡａＳｓＤｄＦｆＧｇＨｈＪｊＫｋＬｌＺｚＸｘＣｃＶｖＢｂＮｎＭｍ'
     hs=u'0123456789QqWwEeRrTtYyUuIiOoPpAaSsDdFfGgHhJjKkLlZzXxCcVvBbNnMm'
     rstr = ''
+    ustring=ustring.lower()
     for tm in ustring:
         if hs.find(tm)+1:
             tm = fs[hs.find(tm)]
@@ -139,16 +141,17 @@ def find_3(blink='http://www.daito-i.com/top/'):
     #print soup.select('strong')[0].text,soup.select('strong')[1].text#雜誌名_期號
     #print len(soup.select('.goodTxt')),soup.select('.goodTxt')[0]#主內容
     
-    nnum = str(soup.select('.goodTxt')[0]).count(KEY)#作者出現次數
+    nnum = Q2B(soup.select('.goodTxt')[0].text).encode('utf8').count(key)#作者出現次數
     for tm in soup.select('.goodTxt')[0].select('p'):
-        if (str(tm).count('】') > 3) and str(tm).count(KEY):#特徵與作者
+        if (str(tm).count('】') > 3):# and str(tm).count(key):#特徵與作者
             #print tm.text,type(tm.text)
             tm=tm.text
+            tm=Q2B(tm)
             while tm.find(u'【') > 0:#特徵存在
-                if KEY.decode('utf8') in tm[tm.find(u'【')+1:tm.find(u'】')]:#符合作者
+                if key.decode('utf8') in tm[tm.find(u'【')+1:tm.find(u'】')]:#符合作者
                     listdict3.append(tm[:tm.find(u'【')])#比對用疊加
                     bdate = bdate + tm[:tm.find(u'【')] + '_'#疊加
-                    if KEY.decode('utf8') != tm[tm.find(u'【')+1:tm.find(u'】')]:
+                    if key != tm[tm.find(u'【')+1:tm.find(u'】')]:#作者不唯一
                         bdate = bdate + tm[tm.find(u'【'):tm.find(u'】')+1] + '_'#疊加
                 tm=tm[tm.find(u'】')+1:]
     #print 'find3'
@@ -173,7 +176,6 @@ def findbook(soup , page = 1):
         
         #書名
         
-        
         #類型
         bdate = ''#次層頁面主資料
         #b = str(pnn).rjust(3,'0')#倒數的流水號
@@ -185,7 +187,7 @@ def findbook(soup , page = 1):
             dict1.setdefault(pnn,book)
         #コミックス_單行本
         elif ctype in u'コミックス':
-            if KEY.decode('utf8') in itmBox.text:
+            if key.decode('utf8') in Q2B(itmBox.text):
                 cfind=find_2(blink)#目標作者的單行本
                 print cfind[1]
                 bdate = cfind[0]
@@ -200,7 +202,7 @@ def findbook(soup , page = 1):
                 book = cname + '_' + cbook + '_' + bdate + '_\n!' + str(cfind[1]) + '!' + blink
                 dict2.setdefault(pnn,book)
             else:
-                book = ctype + '_' + cname + '_' + cbook + '_\n!' + str(cfind[1]) + '!' + blink
+                book = ctype + '_' + cname + '_' + cbook + '_\n!' + blink
                 dict2.setdefault(pnn,book)
         #雑誌_雜誌單篇
         elif ctype in u'雑誌':
@@ -233,13 +235,14 @@ def findbook(soup , page = 1):
         #特徵itmBox開滿每頁顯示才放資料，會跑出空值，以搜尋筆數跳出。
         pnn = pnn -1
         #print a,pnn,int(pnn)
+        #if pnn <78:
         if pnn == 0:
             break
         
     print '========'
 
 ########
-
+key=key.lower()
 KEY = B2Q(key.decode('utf8'))
 KEY= KEY.encode('utf8')
 
