@@ -1,0 +1,21 @@
+dlsite
+!獲る猫
+!總筆數5
+==new_0_新
+==book_0_漫單
+==numbook_2_漫多
+[マンガ]_コミックメガストアα 2015年3月号_著者 : 蛹虎次郎 / はるるん / 獲る猫 / 如月群真 / 友永ケンジ / moric / あいの智絵 / 六壱 / 山崎かずま / みぃとぱん_
+[マンガ]_Girls forM Vol.8_著者 : あかざわred / stem / 宮元一佐 / 大嘘 / 丸居まる / コオリズ / 中田モデム / シュガーミルク / ぴりりねぎ / 獲る猫_
+==dbook_0_漫同人
+==other_0_它
+==obook_3_漫
+[マンガ]_コミックメガストアα 2013年10月号_
+-やりたいことをヤりましょう」獲る猫_
+!0!1!http://www.dlsite.com/books/work/=/product_id/BJ031832.html
+[マンガ]_コミックメガストアα 2014年11月号_
+-やりたいことをヤりましょう2』獲る猫_
+!0!1!http://www.dlsite.com/books/work/=/product_id/BJ047940.html
+[マンガ]_Girls forM Vol.1_
+-る猫…「そうだ妹と練習しよう。」_
+!0!1!http://www.dlsite.com/books/work/=/product_id/BJ057283.html
+==oother_0_它

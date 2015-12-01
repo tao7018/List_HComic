@@ -249,6 +249,8 @@ KEY= KEY.encode('utf8')
 pn =''
 pn = soup.select('tr')[1].select('td')[1].text
 pn = pn[0:pn.find(u'件')]#筆數
+#搜尋結果特徵碼部分有空值?計步避開
+pnn = int(pn)#計步
 
 #資料筆數_是否數字
 if pn > 0:
@@ -271,8 +273,7 @@ if pn > 0:
     listdict3=[]#雜誌單篇
     bdict2 = ''#單行本書目
     listdata = []
-    #搜尋結果特徵碼部分有空值?計步避開
-    pnn = int(pn)#計步
+    
     
     #資料處理
     while (int(pn) - p * pnum) > 0:

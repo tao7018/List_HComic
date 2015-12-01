@@ -1,0 +1,10 @@
+getchu
+!みちきんぐ
+!總筆數1_2015/12/02,03:55->03:55
+==book_1_BOOKS,雑誌,同人
+[BOOKS]_性活週間 キャノプリCOMICS_
+!http://www.getchu.com/soft.phtml?id=874436
+==anime_0_アニメ
+==game_0_PCゲーム,DVD-PG
+==new_0_新
+==other_0_其他

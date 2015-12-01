@@ -2,6 +2,7 @@
 import urllib , requests , sys ,string ,time
 from bs4 import BeautifulSoup
 from bs4 import SoupStrainer
+from time import gmtime, strftime
 
 #comiclist
 #fkey作者來源key.txt
@@ -144,22 +145,25 @@ def findbook(soup , page = 1):
                 book = book + '_' + name + '\n' + mlink +blink#書名+作者+網址
                 dict5.setdefault(data,book)
         a = a + 1
-        #print a
+        print '\r',a,
+    print '.'
     #print '========'
 
 ########
 key=key.lower()
+pn=soup.find_all('b')[1].text
 
 #資料筆數_是否數字
-if soup.find_all('b')[1].text.isdigit():
-    if int(soup.find_all('b')[1].text) > pnum:
+if pn.isdigit():
+    if int(pn) > pnum:
         print 'BIG'
     
     fout = open(key.decode('utf-8') + '_comiclistv1.txt', 'w')#寫入模式開檔
     fout.write('comiclist\n')#comiclist
-    print key , soup.find_all('b')[1].text , 'num\n========v1'
+    print key.decode('utf-8') , pn , 'num\n========v1'
     time.sleep(1)
-    fout.write('!' + key + '\n!總筆數' + soup.find_all('b')[1].text.encode('utf8') + '\n')
+    #fout.write('!' + key + '\n!總筆數' + soup.find_all('b')[1].text.encode('utf8') + '\n')
+    fout.write('!' + key + '\n!總筆數' + pn.encode('utf8') +'_'+ strftime("%Y/%m/%d,%H:%M")+'->')
     
     p = 0#頁
     #建空輸出用字典與陣列
@@ -183,6 +187,7 @@ if soup.find_all('b')[1].text.isdigit():
     #日期排序
     listdata.sort()
     
+    fout.write(strftime("%H:%M")+'\n')
     temp = ''
     #dict3_成人向輸出
     fout.write('==adult_' + str(len(dict3)) +'_成人向\n')
@@ -232,4 +237,4 @@ while x!=0:
     print x,'..',
     x=x-1
     time.sleep(1)
-print 'end'
+raw_input("\nPress Any Key To Exit")

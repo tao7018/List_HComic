@@ -2,6 +2,7 @@
 import urllib , requests , sys ,string ,time
 from bs4 import BeautifulSoup
 from bs4 import SoupStrainer
+from time import gmtime, strftime
 
 #getchu
 #fkey作者來源key.txt
@@ -164,6 +165,8 @@ def findbook(soup , page = 1):
             dict5.setdefault(data,book)
         
         a = a + 1
+        print '\r',a,
+    print '.'
     #print '========'
     #return
 
@@ -181,7 +184,7 @@ if pn.isdigit():
     fout.write('getchu\n')#getchu
     print key.decode('utf8') , pn , 'num\n========v1'
     time.sleep(1)
-    fout.write('!' + key + '\n!總筆數' + pn.encode('utf8') + '\n')
+    fout.write('!' + key + '\n!總筆數' + pn.encode('utf8') +'_'+ strftime("%Y/%m/%d,%H:%M")+'->')
     
     p = 0#頁
     #建空輸出用字典與陣列
@@ -205,6 +208,7 @@ if pn.isdigit():
     #日期排序
     listdata.sort()
     
+    fout.write(strftime("%H:%M")+'\n')
     temp = ''
     #dict1_BOOKS,雑誌,同人輸出
     fout.write('==book_' + str(len(dict1)) +'_BOOKS,雑誌,同人\n')
@@ -234,4 +238,4 @@ while x!=0:
     print x,'..',
     x=x-1
     time.sleep(1)
-print 'end'
+raw_input("\nPress Any Key To Exit")
