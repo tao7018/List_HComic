@@ -255,7 +255,7 @@ if pn > 0:
     if int(pn) > pnum:
         print 'BIG'
     
-    fout = open(key.decode('utf8') + '_daito-iv1.txt', 'w')#寫入模式開檔
+    fout = open('output/'+key.decode('utf8') + '_daito-iv1.txt', 'w')#寫入模式開檔
     fout.write('daito-i\n')#comiclist
     print key.decode('utf8') , pn , 'num\n========v1'
     time.sleep(1)

@@ -158,7 +158,7 @@ if pn.isdigit():
     if int(pn) > pnum:
         print 'BIG'
     
-    fout = open(key.decode('utf-8') + '_comiclistv1.txt', 'w')#寫入模式開檔
+    fout = open('output/'+key.decode('utf-8') + '_comiclistv1.txt', 'w')#寫入模式開檔
     fout.write('comiclist\n')#comiclist
     print key.decode('utf-8') , pn , 'num\n========v1'
     time.sleep(1)
