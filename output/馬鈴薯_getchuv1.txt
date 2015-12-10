@@ -1,0 +1,18 @@
+getchu
+!馬鈴薯
+!總筆數5_2015/12/04,16:34->16:35
+==book_5_BOOKS,雑誌,同人
+[BOOKS]_うらはら WANI MAGAZINE COMICS SPECIAL_
+!http://www.getchu.com/soft.phtml?id=633203
+[BOOKS]_ちんちんかもかも WANI MAGAZINE COMICS SPECIAL_
+!http://www.getchu.com/soft.phtml?id=698171
+[BOOKS]_かわいげ WANI MAGAZINE COMICS SPECIAL_
+!http://www.getchu.com/soft.phtml?id=797196
+[BOOKS]_真夜中のX儀典 1 電撃コミックスNEXT_
+!http://www.getchu.com/soft.phtml?id=834497
+[BOOKS]_真夜中のX儀典 2 電撃コミックスNEXT_
+!http://www.getchu.com/soft.phtml?id=854998
+==anime_0_アニメ
+==game_0_PCゲーム,DVD-PG
+==new_0_新
+==other_0_其他

@@ -1,0 +1,17 @@
+comiclist
+!no.ゴメス
+!總筆數4_2015/12/05,01:35->01:35
+==adult_0_成人向
+==adultnum_0_成人向多卷
+==new_0_新
+==nomal_0_一般向青年向
+==unknow_0_不明
+==other_4_它項
+2008/08/16（成）ブルマー戦士　ジャスティスブレイブ_no．ゴメス
+http://comiclist.jp/index.php?p=td&mode=ss&hcd=35&scd=112&tcd=5I7039090&tscd=900&type=title&keyword=no%EF%BC%8E%E3%82%B4%E3%83%A1%E3%82%B9&andor=and&maxline=30&pgn=1
+2010/09/17（成）グラビティ・ダイ_no．ゴメス
+http://comiclist.jp/index.php?p=td&mode=ss&hcd=35&scd=112&tcd=1002177&tscd=100&type=title&keyword=no%EF%BC%8E%E3%82%B4%E3%83%A1%E3%82%B9&andor=and&maxline=30&pgn=1
+2012/09/29（成）紫乃　退魔剣士のしつけ方_no．ゴメス
+http://comiclist.jp/index.php?p=td&mode=ss&hcd=35&scd=112&tcd=1015658&tscd=100&type=title&keyword=no%EF%BC%8E%E3%82%B4%E3%83%A1%E3%82%B9&andor=and&maxline=30&pgn=1
+2014/11/28ワルキューレロマンツェ　少女騎士物語[2]_no．ゴメス、ricotta、空蝉
+http://comiclist.jp/index.php?p=td&mode=ss&hcd=35&scd=109&tcd=1028091&tscd=100&type=title&keyword=no%EF%BC%8E%E3%82%B4%E3%83%A1%E3%82%B9&andor=and&maxline=30&pgn=1

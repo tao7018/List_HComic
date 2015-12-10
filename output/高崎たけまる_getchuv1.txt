@@ -1,0 +1,18 @@
+getchu
+!高崎たけまる
+!總筆數5_2015/12/09,00:15->00:16
+==book_5_BOOKS,雑誌,同人
+[BOOKS]_Fresh Goddess ホットミルクコミックス_
+!http://www.getchu.com/soft.phtml?id=582028
+[BOOKS]_快楽ユーフォリア ホットミルクコミックス_
+!http://www.getchu.com/soft.phtml?id=686969
+[BOOKS]_当主な俺と×××な彼女 ホットミルクコミックス_
+!http://www.getchu.com/soft.phtml?id=751184
+[BOOKS]_イバラヒメ ホットミルクコミックス_
+!http://www.getchu.com/soft.phtml?id=825396
+[BOOKS]_だめっ娘ガールズ。 バンブーコミックス COLORFUL SELECT_
+!http://www.getchu.com/soft.phtml?id=848658
+==anime_0_アニメ
+==game_0_PCゲーム,DVD-PG
+==new_0_新
+==other_0_其他

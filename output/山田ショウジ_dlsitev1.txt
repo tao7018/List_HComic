@@ -1,0 +1,16 @@
+dlsite
+!山田ショウジ
+!總筆數4_2015/12/05,01:33->01:33
+==new_0_新
+==book_3_漫單
+[マンガ]_あねパイ_著者 : 山田ショウジ_
+[マンガ]_Sweet TRAP_著者 : 山田ショウジ_
+[マンガ]_みるきぃQueen_著者 : 山田ショウジ_
+==numbook_0_漫多
+==dbook_0_漫同人
+==other_0_它
+==obook_1_漫
+[マンガ]_COMIC阿吽2009年5月号_
+-2ndコミックス「sweet trap」も大注目の山田ショウジ「アップダウンガール」。_
+!0!1!http://www.dlsite.com/books/work/=/product_id/BJ009112.html
+==oother_0_它

@@ -1,0 +1,22 @@
+getchu
+!いぬぶろ
+!總筆數7_2015/12/03,15:57->15:57
+==book_7_BOOKS,雑誌,同人
+[BOOKS]_いぬみみずかん WANI MAGAZINE COMICS SPECIAL_
+!http://www.getchu.com/soft.phtml?id=424657
+[BOOKS]_はたらく！おねえさん WANI MAGAZINE COMICS SPECIAL_
+!http://www.getchu.com/soft.phtml?id=704398
+[BOOKS]_COMICリュウ アンソロジー2011◆SUMMER 「けもも」 リュウコミックス_
+!http://www.getchu.com/soft.phtml?id=714926
+[BOOKS]_少女式 冬 2012 セラフィンコミックス_
+!http://www.getchu.com/soft.phtml?id=756754
+[BOOKS]_少女式 春 2013 セラフィンコミックス_
+!http://www.getchu.com/soft.phtml?id=767030
+[BOOKS]_少女式 夏 2013 セラフィンコミックス_
+!http://www.getchu.com/soft.phtml?id=774320
+[BOOKS]_とろけあい WANI MAGAZINE COMICS SPECIAL_
+!http://www.getchu.com/soft.phtml?id=857883
+==anime_0_アニメ
+==game_0_PCゲーム,DVD-PG
+==new_0_新
+==other_0_其他

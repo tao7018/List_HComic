@@ -148,7 +148,7 @@ def find_3(blink='http://www.daito-i.com/top/'):
             #print tm.text,type(tm.text)
             tm=tm.text
             tm=Q2B(tm)
-            while tm.find(u'【') > 0:#特徵存在
+            while tm.count(key.decode('utf8')) > 0:#特徵存在
                 if key.decode('utf8') in tm[tm.find(u'【')+1:tm.find(u'】')]:#符合作者
                     listdict3.append(tm[:tm.find(u'【')])#比對用疊加
                     bdate = bdate + tm[:tm.find(u'【')] + '_'#疊加

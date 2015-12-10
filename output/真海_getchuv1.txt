@@ -1,0 +1,16 @@
+getchu
+!真海
+!總筆數4_2015/12/07,02:19->02:19
+==book_4_BOOKS,雑誌,同人
+[BOOKS]_脳内測定 セラフィンコミックス_
+!http://www.getchu.com/soft.phtml?id=149374
+[BOOKS]_性恋（せいれん） セラフィンコミックス_
+!http://www.getchu.com/soft.phtml?id=145878
+[BOOKS]_机上の空論 セラフィンコミックス_
+!http://www.getchu.com/soft.phtml?id=253617
+[BOOKS]_SWEET☆JAM セラフィンコミックス_
+!http://www.getchu.com/soft.phtml?id=373889
+==anime_0_アニメ
+==game_0_PCゲーム,DVD-PG
+==new_0_新
+==other_0_其他

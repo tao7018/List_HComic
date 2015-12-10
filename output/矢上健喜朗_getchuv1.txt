@@ -1,0 +1,14 @@
+getchu
+!矢上健喜朗
+!總筆數3_2015/12/03,15:34->15:34
+==book_3_BOOKS,雑誌,同人
+[BOOKS]_蝕姦 MUJINコミックス_
+!http://www.getchu.com/soft.phtml?id=506717
+[BOOKS]_コアフェス MUJINコミックス_
+!http://www.getchu.com/soft.phtml?id=616988
+[BOOKS]_縛禁刑 MUJINコミックス_
+!http://www.getchu.com/soft.phtml?id=676281
+==anime_0_アニメ
+==game_0_PCゲーム,DVD-PG
+==new_0_新
+==other_0_其他

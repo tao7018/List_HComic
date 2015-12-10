@@ -1,0 +1,42 @@
+dlsite
+!no.ゴメス
+!總筆數16_2015/12/05,01:36->01:37
+==new_0_新
+==book_5_漫單
+[マンガ]_ブルマー戦士ジャスティスブレイブ_著者 : no.ゴメス_
+[マンガ]_グラビティ・ダイ_著者 : no.ゴメス_
+[マンガ]_紫乃　退魔剣士のしつけ方_著者 : no.ゴメス_
+[マンガ]_とりかえっ娘 【単話】_著者 : no.ゴメス_
+[マンガ]_TS学園潜入捜査官　恥辱のストリップショー【単話】_著者 : no.ゴメス_
+==numbook_3_漫多
+[マンガ]_性転換アンソロジーコミックスVol.1_著者 : トキサナ / 空木次葉 / no.ゴメス_
+[マンガ]_性転換アンソロジーコミックスVol.4_著者 : 双龍 / no.ゴメス / 144_
+[マンガ]_二次元ドリームマガジンVol.61_著者 : トモセシュンサク / ぱふぇ / no.ゴメス / 浅沼克明 / くまっち＆船虫 / 琴慈_
+==dbook_0_漫同人
+==other_1_它
+[ノベル]_僕の幼なじみがキャバ嬢なわけがない_著者 : 大熊狸喜(作) / 光星(画) / no.ゴメス(画)_
+!1!0!http://www.dlsite.com/books/work/=/product_id/BJ007717.html
+==obook_7_漫
+[マンガ]_二次元ドリームマガジンVol.60_
+-★さかき傘先生の魔法少女もの小説＆no.ゴメス先生の退魔少女マンガ連載開始！ 
+-『紫乃　〜退魔剣士〜』 no.ゴメス _
+!0!2!http://www.dlsite.com/books/work/=/product_id/BJ020087.html
+[マンガ]_二次元ドリームマガジンVol.62_
+-『紫乃〜退魔剣士〜』 no.ゴメス _
+!0!1!http://www.dlsite.com/books/work/=/product_id/BJ021575.html
+[マンガ]_二次元ドリームマガジンVol.63_
+-『紫乃　〜退魔剣士〜』 no.ゴメス _
+!0!1!http://www.dlsite.com/books/work/=/product_id/BJ022567.html
+[マンガ]_二次元ドリームマガジンVol.64_
+-『紫乃　〜退魔剣士〜』 no.ゴメス_
+!0!1!http://www.dlsite.com/books/work/=/product_id/BJ023025.html
+[マンガ]_二次元ドリームマガジンVol.65_
+-『紫乃　〜退魔剣士〜』 no.ゴメス_
+!0!1!http://www.dlsite.com/books/work/=/product_id/BJ023745.html
+[マンガ]_二次元ドリームマガジンVol.81_
+-『ムラマサレディ 屈辱のマシンクライシス』 新居佑×no.ゴメス_
+!0!1!http://www.dlsite.com/books/work/=/product_id/BJ052127.html
+[同人誌マンガ]_秘ブツ開帳命蓮寺 巨星☆堕つ_
+-ゲストページにno.ゴメス先生のイラストがありますあります。_
+!0!1!http://www.dlsite.com/maniax/work/=/product_id/RJ166305.html
+==oother_0_它

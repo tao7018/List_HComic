@@ -1,0 +1,104 @@
+daito-i
+!くもいたかし
+!總筆數20_2015/12/05,01:48->01:49
+==new_0_新刊
+==book_6_單行本
+すとれんじはぁと_
+(15)-すとれんじはぁと
+-　第１話
+-　第２話
+-　第３話
+-　第４話
+-ライカとがっつり
+-すとれんじはぁと
+-　第５話
+-　第６話
+-　第７話
+-　第８話
+-　第９話
+-　第１０話
+-　最終話
+-４コマ漫画
+-あとがき%
+!http://www.daito-i.com/top/comics/detail.php?code=9784883564132
+獣姫艶舞_
+(8)-ＢＡＴＴＬＥ０１
+-ＢＡＴＴＬＥ０２
+-ＢＡＴＴＬＥ０３
+-ＢＡＴＴＬＥ０４
+-ＢＡＴＴＬＥ０５
+-ＢＡＴＴＬＥ０６
+-ＢＡＴＴＬＥ０７
+-ＢＡＴＴＬＥ０８
+-設定資料%
+!http://www.daito-i.com/top/comics/detail.php?code=9784861058417
+エロヨメ_
+(12)-エロヨメ
+-生徒会長　月島めぐみ！
+-生徒会長　月島めぐみ！２
+-生徒会長　月島めぐみ！３
+-幼馴染はニンジャー
+-催眠ノススメ
+-吸血奇譚－前編－
+-吸血奇譚－後編－
+-Ｄｏｇ　ｂｒｅｅｄｅｒ
+-Ａ　Ｌａｄｙ　ＳＴＲＩＫＥＳ！
+-ツン★剣させないでよ！！
+-エロヨメａｆｔｅｒ
+-あとがき%
+!http://www.daito-i.com/top/comics/detail.php?code=9784883564477
+アンソロジー_二次元コミックマガジン　エナジー吸収されて敗北してしまうヒロイン達_電撃処女ブラスター・エンジェル__
+!1!http://www.daito-i.com/top/comics/detail.php?code=9784799206713
+アンソロジー_二次元コミックマガジン　リア充美少女たちを孕ませ妊娠！_義姉征服__
+!1!http://www.daito-i.com/top/comics/detail.php?code=9784799207413
+アンソロジー_二次元コミックマガジン　水棲生物に犯されるヒロインたち_軟獄！逆襲のデビルフィッシュ__
+!1!http://www.daito-i.com/top/comics/detail.php?code=9784799207949
+==adult_14_雜誌
+ＣＯＭＩＣ阿吽[2008年3月号]_それはある晴れた　ある日の出来事__
+!1!http://www.daito-i.com/top/magazine/detail.php?code=4910139630381
+月刊コミックエックスオー[2010年2月号]_獣姫艶舞__
+!1!http://www.daito-i.com/top/magazine/detail.php?code=4910139330205
+コミック・マショウ[2010年6月号]_生徒会長・月島めぐみ！__
+!1!http://www.daito-i.com/top/magazine/detail.php?code=4910183810609
+コミック・マショウ[2010年8月号]_生徒会長・月島めぐみ！2__
+!1!http://www.daito-i.com/top/magazine/detail.php?code=4910183810807
+コミック・マショウ[2010年10月号]_生徒会長・月島めぐみ！3__
+!1!http://www.daito-i.com/top/magazine/detail.php?code=4910183811002
+コミック・マショウ[2010年12月号]_幼馴染はニンジャー__
+!1!http://www.daito-i.com/top/magazine/detail.php?code=4910183811200
+コミック・マショウ[2011年2月号]_催眠ノススメ__
+!1!http://www.daito-i.com/top/magazine/detail.php?code=4910183810210
+コミック・マショウ[2011年4月号]_吸血奇譚－前編－__
+!1!http://www.daito-i.com/top/magazine/detail.php?code=4910183810418
+コミック・マショウ[2011年5月号]_吸血奇譚－後編－__
+!1!http://www.daito-i.com/top/magazine/detail.php?code=4910183810517
+美少女革命　極　Ｖｏｌ．１４[純愛果実6月号増刊]_お嬢様はアロマに夢中__
+!1!http://www.daito-i.com/top/magazine/detail.php?code=4910053180610
+コミック・マショウ[2011年7月号]_エロヨメ__
+!1!http://www.daito-i.com/top/magazine/detail.php?code=4910183810715
+コミック・マショウ[2011年9月号]_コス★ヨメ！__
+!1!http://www.daito-i.com/top/magazine/detail.php?code=4910183810913
+コミック・マショウ[2011年11月号]_キリマ陵辱__
+!1!http://www.daito-i.com/top/magazine/detail.php?code=4910183811118
+エンジェルクラブ[2011年11月号]_ピンナップ__
+!1!http://www.daito-i.com/top/magazine/detail.php?code=4910119451111
+==art_0_作畫擔任
+==other_0_其他
+==fd32_17_比對結果
+軟獄！逆襲のデビルフィッシュ
+義姉征服
+電撃処女ブラスター・エンジェル
+ピンナップ
+キリマ陵辱
+コス★ヨメ！
+-エロヨメ
+お嬢様はアロマに夢中
+-吸血奇譚－後編－
+-吸血奇譚－前編－
+-催眠ノススメ
+-幼馴染はニンジャー
+生徒会長・月島めぐみ！3
+生徒会長・月島めぐみ！2
+生徒会長・月島めぐみ！
+獣姫艶舞
+それはある晴れた　ある日の出来事

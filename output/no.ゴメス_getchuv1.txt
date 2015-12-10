@@ -1,0 +1,20 @@
+getchu
+!no.ゴメス
+!總筆數6_2015/12/05,01:37->01:38
+==book_6_BOOKS,雑誌,同人
+[BOOKS]_ブルマー戦士ジャスティスブレイブ 二次元ドリームコミックス_
+!http://www.getchu.com/soft.phtml?id=572358
+[BOOKS_文庫]]_僕の幼なじみがキャバ嬢なわけがない 二次元ドリーム文庫_
+!http://www.getchu.com/soft.phtml?id=673219
+[BOOKS]_グラビティ・ダイ 二次元ドリームコミックス_
+!http://www.getchu.com/soft.phtml?id=689795
+[BOOKS]_紫乃 退魔剣士のしつけ方 二次元ドリームコミックス_
+!http://www.getchu.com/soft.phtml?id=749172
+[BOOKS]_ワルキューレロマンツェ［少女騎士物語］ Vol.1 ヴァルキリーコミックス_
+!http://www.getchu.com/soft.phtml?id=789717
+[BOOKS]_ワルキューレロマンツェ［少女騎士物語］ Vol.2 ヴァルキリーコミックス_
+!http://www.getchu.com/soft.phtml?id=829796
+==anime_0_アニメ
+==game_0_PCゲーム,DVD-PG
+==new_0_新
+==other_0_其他

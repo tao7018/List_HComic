@@ -1,0 +1,18 @@
+getchu
+!しでん晶
+!總筆數5_2015/12/06,23:58->23:59
+==book_4_BOOKS,雑誌,同人
+[BOOKS]_櫻のニオイ サンワコミックス_
+!http://www.getchu.com/soft.phtml?id=150237
+[BOOKS]_キャンディーガール サンワコミックス_
+!http://www.getchu.com/soft.phtml?id=689044
+[BOOKS]_ふぇち乙女系 サンワコミックス_
+!http://www.getchu.com/soft.phtml?id=738239
+[BOOKS]_すい〜とびっち！ サンワコミックス_
+!http://www.getchu.com/soft.phtml?id=821830
+==anime_0_アニメ
+==game_1_PCゲーム,DVD-PG
+[PCゲーム]_月の雫〜ツキノシズク〜 _
+!http://www.getchu.com/soft.phtml?id=4220
+==new_0_新
+==other_0_其他

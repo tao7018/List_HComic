@@ -1,0 +1,16 @@
+getchu
+!シャチカマボコ
+!總筆數4_2015/12/10,23:29->23:30
+==book_4_BOOKS,雑誌,同人
+[BOOKS]_月と太陽 TENMAコミックス_
+!http://www.getchu.com/soft.phtml?id=625474
+[BOOKS]_会長のいいなり！ TENMAコミックス_
+!http://www.getchu.com/soft.phtml?id=680998
+[BOOKS]_先生といっしょ TENMAコミックス_
+!http://www.getchu.com/soft.phtml?id=732576
+[BOOKS]_ファニーガールズ TENMAコミックス_
+!http://www.getchu.com/soft.phtml?id=802582
+==anime_0_アニメ
+==game_0_PCゲーム,DVD-PG
+==new_0_新
+==other_0_其他

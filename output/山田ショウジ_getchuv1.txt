@@ -1,0 +1,14 @@
+getchu
+!山田ショウジ
+!總筆數3_2015/12/05,01:33->01:33
+==book_3_BOOKS,雑誌,同人
+[BOOKS]_あねパイ セラフィンコミックス_
+!http://www.getchu.com/soft.phtml?id=575061
+[BOOKS]_Sweet TRAP セラフィンコミックス_
+!http://www.getchu.com/soft.phtml?id=633089
+[BOOKS]_みるきぃQueen セラフィンコミックス_
+!http://www.getchu.com/soft.phtml?id=695903
+==anime_0_アニメ
+==game_0_PCゲーム,DVD-PG
+==new_0_新
+==other_0_其他

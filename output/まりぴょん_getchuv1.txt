@@ -1,0 +1,28 @@
+getchu
+!まりぴょん
+!總筆數10_2015/12/04,02:10->02:11
+==book_10_BOOKS,雑誌,同人
+[BOOKS]_僕らのやり方 サンワコミックス_
+!http://www.getchu.com/soft.phtml?id=150283
+[BOOKS]_short cut _
+!http://www.getchu.com/soft.phtml?id=138353
+[BOOKS]_プライベート・レッスン 富士美コミックス_
+!http://www.getchu.com/soft.phtml?id=276678
+[BOOKS]_カラダ・スイッチ アクションコミックス_
+!http://www.getchu.com/soft.phtml?id=575108
+[BOOKS]_はたらくお姉さんは好きですか？ バンブーコミックス DOKI SPECIAL SELECT_
+!http://www.getchu.com/soft.phtml?id=633106
+[BOOKS]_御主人様の作り方 バンブーコミックス DOKI SPECIAL SELECT_
+!http://www.getchu.com/soft.phtml?id=678694
+[BOOKS]_らぶ・あふぇあ アクションコミックス_
+!http://www.getchu.com/soft.phtml?id=691583
+[BOOKS]_恋カフェにようこそ!! 1 バンブーコミックス COLORFUL SELECT_
+!http://www.getchu.com/soft.phtml?id=712157
+[BOOKS]_恋カフェにようこそ!! 2 バンブーコミックス COLORFUL SELECT_
+!http://www.getchu.com/soft.phtml?id=741450
+[BOOKS]_AVな彼女 バンブーコミックス COLORFUL SELECT_
+!http://www.getchu.com/soft.phtml?id=807680
+==anime_0_アニメ
+==game_0_PCゲーム,DVD-PG
+==new_0_新
+==other_0_其他

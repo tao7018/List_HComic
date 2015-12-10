@@ -1,0 +1,16 @@
+getchu
+!くもいたかし
+!總筆數4_2015/12/05,01:51->01:51
+==book_4_BOOKS,雑誌,同人
+[BOOKS]_すとれんじはぁと サンワコミックス_
+!http://www.getchu.com/soft.phtml?id=572232
+[BOOKS]_獣姫艶舞 XO COMIX_
+!http://www.getchu.com/soft.phtml?id=670026
+[BOOKS]_エロヨメ サンワコミックス_
+!http://www.getchu.com/soft.phtml?id=706493
+[同人]_風俗島からの脱出 _
+!http://www.getchu.com/soft.phtml?id=821214
+==anime_0_アニメ
+==game_0_PCゲーム,DVD-PG
+==new_0_新
+==other_0_其他
