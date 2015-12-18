@@ -1,0 +1,13 @@
+dlsite
+!ジャム王子
+!總筆數1_2015/12/11,02:39->02:39
+==new_0_新
+==book_0_漫單
+==numbook_0_漫多
+==dbook_0_漫同人
+==other_0_它
+==obook_0_漫
+==oother_1_它
+[同人ソフトイラスト(CG)+ノベル]_聖アルルナ女学院 黄金の百合十字クラブ_
+-文・hermit_gel　絵・ジャム王子による、_
+!0!1!http://www.dlsite.com/maniax/work/=/product_id/RJ045736.html

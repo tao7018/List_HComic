@@ -1,0 +1,16 @@
+getchu
+!ジャム王子
+!總筆數4_2015/12/11,02:39->02:39
+==book_4_BOOKS,雑誌,同人
+[BOOKS]_地獄学園性徒会 セラフィンコミックス_
+!http://www.getchu.com/soft.phtml?id=149369
+[BOOKS]_BAD SLAMMERS　2 _
+!http://www.getchu.com/soft.phtml?id=149368
+[BOOKS]_BAD SLAMMERS　1 _
+!http://www.getchu.com/soft.phtml?id=149367
+[BOOKS]_ふたなり王国の勃興 TENMAコミックス_
+!http://www.getchu.com/soft.phtml?id=748935
+==anime_0_アニメ
+==game_0_PCゲーム,DVD-PG
+==new_0_新
+==other_0_其他

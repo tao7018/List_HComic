@@ -1,0 +1,12 @@
+daito-i
+!御形屋はるか
+!總筆數1_2015/12/18,14:42->14:42
+==new_0_新刊
+==book_1_單行本
+Ｃｈｅｒｒｙ_
+lost
+!http://www.daito-i.com/top/comics/detail.php?code=9784871826334
+==adult_0_雜誌
+==art_0_作畫擔任
+==other_0_其他
+==fd32_0_比對結果

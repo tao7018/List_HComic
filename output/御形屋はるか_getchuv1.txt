@@ -1,0 +1,26 @@
+getchu
+!御形屋はるか
+!總筆數9_2015/12/18,14:44->14:44
+==book_9_BOOKS,雑誌,同人
+[BOOKS]_桃蜜娘 _
+!http://www.getchu.com/soft.phtml?id=149946
+[BOOKS]_Cherry TENMAコミックス_
+!http://www.getchu.com/soft.phtml?id=195161
+[BOOKS]_ぽてまよ 1 アクションコミックスもえよん_
+!http://www.getchu.com/soft.phtml?id=206621
+[BOOKS]_PINK PAREDE マンサンコミックス_
+!http://www.getchu.com/soft.phtml?id=312906
+[BOOKS]_ぽてまよ 2 アクションコミックスもえよん_
+!http://www.getchu.com/soft.phtml?id=403095
+[BOOKS]_ぽてまよ 3 アクションコミックスもえよん_
+!http://www.getchu.com/soft.phtml?id=555977
+[BOOKS]_ぽてまよ 4 アクションコミックスもえよん_
+!http://www.getchu.com/soft.phtml?id=668641
+[BOOKS]_はなたま まんがタイムコミックス_
+!http://www.getchu.com/soft.phtml?id=690378
+[BOOKS]_ぽてまよ 5 アクションコミックス_
+!http://www.getchu.com/soft.phtml?id=706552
+==anime_0_アニメ
+==game_0_PCゲーム,DVD-PG
+==new_0_新
+==other_0_其他

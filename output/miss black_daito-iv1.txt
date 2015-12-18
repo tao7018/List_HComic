@@ -1,0 +1,85 @@
+daito-i
+!miss black
+!總筆數37_2015/12/11,14:19->14:21
+==new_0_新刊
+==book_13_單行本
+コミックス_ＭＩＳＳ　ＢＬＡＣＫ_ＴＲＡｕｍ_
+!http://www.daito-i.com/top/comics/detail.php?code=9784860322656
+コミックス_ＭＩＳＳ　ＢＬＡＣＫ_Ｆｅｕｅｒｉｇ_
+!http://www.daito-i.com/top/comics/detail.php?code=9784860324193
+コミックス_ＲＥＤ－ＲＵＭ_ＬＯＶＥ・ＤＯＬＬ_
+!http://www.daito-i.com/top/comics/detail.php?code=9784873063072
+コミックス_ＭＩＳＳ　ＢＬＡＣＫ_超昂閃忍ハルカ　刃の巻_
+!http://www.daito-i.com/top/comics/detail.php?code=9784860328245
+コミックス_ＭＩＳＳ　ＢＬＡＣＫ_Ｚｉｇｇｕｒａｔ１_
+!http://www.daito-i.com/top/comics/detail.php?code=9784860329396
+コミックス_ＭＩＳＳ　ＢＬＡＣＫ_Ｚｉｇｇｕｒａｔ２_
+!http://www.daito-i.com/top/comics/detail.php?code=9784799201350
+コミックス_ＭＩＳＳ　ＢＬＡＣＫ／原作：アリスソフト_超昂閃忍ハルカ　心の巻_
+!http://www.daito-i.com/top/comics/detail.php?code=9784799201763
+コミックス_ＭＩＳＳ　ＢＬＡＣＫ／原作：アリスソフト_超昂閃忍ハルカ　心の巻　ボディミトン付限定版_
+!http://www.daito-i.com/top/comics/detail.php?code=4560297220414
+コミックス_ＭＩＳＳ　ＢＬＡＣＫ_Ｚｉｇｇｕｒａｔ３_
+!http://www.daito-i.com/top/comics/detail.php?code=9784799203347
+コミックス_ＭＩＳＳ　ＢＬＡＣＫ_Ｚｉｇｇｕｒａｔ４_
+!http://www.daito-i.com/top/comics/detail.php?code=9784799204696
+コミックス_ＭＩＳＳ　ＢＬＡＣＫ_Ｚｉｇｇｕｒａｔ５_
+!http://www.daito-i.com/top/comics/detail.php?code=9784799206775
+アンソロジー_別冊コミックアンリアル　隷嬢たちの日常__
+!0!http://www.daito-i.com/top/comics/detail.php?code=9784799207161
+コミックス_ＭＩＳＳ　ＢＬＡＣＫ_Ｌｕｓｔ　Ｒｅｓｏｒｔ！！特別限定版_
+!http://www.daito-i.com/top/comics/detail.php?code=9784799207154
+==adult_23_雜誌
+二次元ドリームマガジン[2010年2月号]_超昂閃忍ハルカ_【miss black／原作：アリスソフト】__
+!1!http://www.daito-i.com/top/magazine/detail.php?code=4910069830202
+二次元ドリームマガジン[2010年4月号]__
+!0!http://www.daito-i.com/top/magazine/detail.php?code=4910069830400
+二次元ドリームマガジン[2010年6月号]_えっちマンガ超昂閃忍ハルカ_【原作：アリスソフト／miss black】__
+!1!http://www.daito-i.com/top/magazine/detail.php?code=4910069830608
+二次元ドリームマガジン[2010年8月号]__
+!0!http://www.daito-i.com/top/magazine/detail.php?code=4910069830806
+二次元ドリームマガジン[2010年10月号]__
+!0!http://www.daito-i.com/top/magazine/detail.php?code=4910069831001
+二次元ドリームマガジン[2010年12月号]__
+!0!http://www.daito-i.com/top/magazine/detail.php?code=4910069831209
+二次元ドリームマガジン[2011年2月号]__
+!0!http://www.daito-i.com/top/magazine/detail.php?code=4910069830219
+二次元ドリームマガジン[2011年4月号]__
+!0!http://www.daito-i.com/top/magazine/detail.php?code=4910069830417
+二次元ドリームマガジン[2011年6月号]__
+!0!http://www.daito-i.com/top/magazine/detail.php?code=4910069830615
+二次元ドリームマガジン[2011年8月号]__
+!0!http://www.daito-i.com/top/magazine/detail.php?code=4910069830813
+コミックヴァルキリー[2012年1月号]__
+!0!http://www.daito-i.com/top/magazine/detail.php?code=4910138210126
+コミックヴァルキリー[2012年3月号]__
+!0!http://www.daito-i.com/top/magazine/detail.php?code=4910138210324
+コミックヴァルキリー[2012年5月号]__
+!0!http://www.daito-i.com/top/magazine/detail.php?code=4910138210522
+二次元ドリームマガジン[2012年6月号]__
+!0!http://www.daito-i.com/top/magazine/detail.php?code=4910069830622
+コミックヴァルキリー[vol．38（2012年7月号）]__
+!0!http://www.daito-i.com/top/magazine/detail.php?code=4910138210720
+コミックヴァルキリー[vol．39（2012年9月号）]__
+!0!http://www.daito-i.com/top/magazine/detail.php?code=4910138210928
+コミックヴァルキリー[vol．40（2012年11月号）]__
+!0!http://www.daito-i.com/top/magazine/detail.php?code=4910138211123
+二次元ドリームマガジン[2013年12月号]__
+!0!http://www.daito-i.com/top/magazine/detail.php?code=4910069831230
+二次元ドリームマガジン[2014年2月号]__
+!0!http://www.daito-i.com/top/magazine/detail.php?code=4910069830240
+二次元ドリームマガジン[2014年4月号]__
+!0!http://www.daito-i.com/top/magazine/detail.php?code=4910069830448
+二次元ドリームマガジン[2014年8月号]__
+!0!http://www.daito-i.com/top/magazine/detail.php?code=4910069830844
+二次元ドリームマガジン[2014年10月号]__
+!0!http://www.daito-i.com/top/magazine/detail.php?code=4910069831049
+二次元ドリームマガジン[2014年12月号]__
+!0!http://www.daito-i.com/top/magazine/detail.php?code=4910069831247
+==art_1_作畫擔任
+ノベルズ_小説：瀧澤春／絵：MISS　BLACK_討魔刃姫 美劔つかさ_
+!http://www.daito-i.com/top/novels/detail.php?code=9784860323851
+==other_0_其他
+==fd32_2_比對結果
+えっちマンガ超昂閃忍ハルカ
+超昂閃忍ハルカ
