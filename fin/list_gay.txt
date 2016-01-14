@@ -1,0 +1,960 @@
+"(Haikyuu!!)",
+"(Shingeki no Kyojin)",  //Mikasa is not cute anyway
+"(Kuroko no Basuke)", 
+"(Katekyoo Hitman REBORN!)",
+"(Touken Ranbu)",
+"(Yowamushi Pedal)",
+"(Uta no Prince-sama)",
+"(Hoozuki no Reitetsu)",
+"(Kekkai Sensen)",
+"(Free!)",
+"(ALDNOAH.ZERO)",
+"(Ensemble Stars!)",
+"(Sengoku Basara)",
+"(Bakumatsu Rock)",
+"(DRAMAtical Murder)",
+"(Ao no Exorcist)",
+"(Daiya no Ace)",
+"(Gintama)",
+"(Katekyo Hitman REBORN!)",
+"リヴァイ兵長",  //I hate this short guy!!
+"少年×ケモノ",   
+"ケモホモ",
+"(Teenage Mutant Ninja Turtles)",
+"(Buraiden Gai)",
+"(Prince of Tennis)",
+"(TIGER & BUNNY)",
+"(Osomatsu-san)",
+"(GANGSTA.)",
+"(Toriko)",
+"(Durarara!!)",
+"(Inazuma Eleven)",
+"(Summer Wars)", //why on earth they choose!!
+"(Tokyo Ghoul)", 
+"(Kaiji)", //OMG
+"(Dramatical Murder)",
+"(Natsume's Book of Friends",
+"(natsume yuujin",
+"(sweet pool",
+"(Sekaiichi Hatsukoi)",
+"(LOVELESS",
+//------------author---------------
+"[001 (Iimo)",
+!"[10.10MHz (Totofumi)",
+!"[100Mjack (Ebisawa Nira)",
+!"[238 (Hachi, Mitsu)",
+!"[23924 (Miko)",
+!"[39dmp (tachibanaei)",
+"[3×3CROSS (Marimo)",
+!"[4DIP (Tarte)",
+!"[500ft (Sorao)",
+!"[6109 (Kirishiki Tokico)",
+!"[6counter (Shuukichi)",
+!"[84 (Hashi)",
+!"[8days (Kuon Marino)",
+"[8°]",
+"[:DOG VILLE, Tokyo Coin Rocker Baby",
+"[@N (unico)",
+"[A-mw. (makka)",
+"[Abara ga Itai (Shindai)",
+"[Acchicchi (Kanegae Shouko)",
+"[ADVANX (ADVANX)",
+"[Afuroyaen (Nyankichi)",
+"[Aisukureyo (Hoshikuzu Noyu)",
+"[Akagirenya (Konokoyun, Akaboshi)",
+"[Akareshina (Hidaka Naruse)",
+"[Ake no Myoujou (Yuuki Takeru)",
+"[Akitaku Kikaku (Taku Hiraku)",
+"[Akiya (Suzusawa Aki)",
+"[Akuochisukii Kyoushitsu (Akuochisukii Sensei)",
+"[Al:side-G (Hisui Yu)",
+"[Altopia (Alto)",
+"[Amarans (Fujimura Marina)",
+"[Ambient (Kuriyama Natsuki)",
+"[ame-kan (K.Hinagi)",
+"[Ameagari After School (Kimoto Hajime)",
+"[American ☆ Rock (Kotarou)",
+"[Amiya (Nono)",
+"[Animalism (Takagi Kyou)",
+"[anything (naop)",
+"[Aozora (Nosada)",
+"[Apoepo Company. (Yuzuru)",
+"[APOLLO (JIRO)",
+"[archea (Sasagawa Nagaru)",
+"[Article 60 of Criminal Code (Shuhan)",
+"[Ash wing (Makuro)",
+"[ass (Itou Emiri)",
+"[ASSAULTBEER (KOMA)",
+"[Asterism (Shiyu)",
+"[Asukara (Isao)",
+"[Atamanurui MIX-eR",
+"[Atonexia (Ato)",
+"[AWAYOKUBA (Yukke)",
+"[ayafujii private circle (Fujii Aya)",
+"[Bamboo Ring! (Isobe)",
+"[bb (Ume)",
+"[Bear Tail (Chobi)",
+"[BEVEL (Bebeyu)",
+"[Biinyajou (Tomoi)",
+"[Biyaku (Fujii Asaka)",
+"[black line:01 (snail)",
+"[Black Monkey",
+"[BlackApple (Ryou)",
+"[Blue Hawaii (Bu)",
+"[BLUE HOOF (Wako)",
+"[BOOBY TRAP (YANAGI)",
+"[Bousou Cash-back (Himeki)",
+"[C2.inc (C2)",
+"[CACHE-CACHE (Nanjou Papiko)",
+"[Calorie Off (Asahi)",
+"[CASHLAIM (Haru)",
+"[Celsius (Torikawa)",
+"[Chaos Cradle",
+"[Chemical Drop (Kirigaya Kari)",
+"[CHERRY MOON (K-Zima)",
+"[Chibineco Honpo (Chibineko Master)",
+"[chicken (39rou)",
+"[Chijoku An",
+"[CHIN-UP (Pocchi)",
+"[Chisha no Mi (Hidaka)",
+"[choco-BANANA (Nanaki Nana)",
+"[ChocoChro. (Gojoe)",
+"[Chocolate Macaron (Yoshizawa Vanilla)",
+"[Chojin/KAMONEGI",
+"[ciao,baby (Miike)",
+"[CLASSIC MILK, PEACE and ALIEN",
+"[CLAZYSALT (Nazukichi)",
+"[Club-Y",
+"[CLUB-Z (Hinata Yagaki)",
+"[COLOR PALETTE (Shiho)",
+"[COMPLETE ZERO (Komino)",
+"[COSMIQ (Nonoyama Chiuta)",
+"[Crazy Joker (Kawase Hizuri)",
+"[Crazy9 (Ichitaka)",
+"[CRAZYPIG777 (Tonkatsu)",
+"[cullet (Rou)",
+"[D-2 (Miyasugi Miyu)",
+"[D-Amb (Chitose Piyoko)",
+"[dalia (Kadarinka)",
+"[Dangan Orchestra (Shizumiya Hiiragi",
+"[Dark Water (Tatsuse)",
+"[delica (Mito)",
+"[Denten, FUMUx2 (Tono)",
+"[dg (Doguu)",
+"[DIANA (Assa)",
+"[DIETHELM (Mizuyuki)",
+"[Dilcissime (Sakonishi)",
+"[DMB (Kanda)",
+"[Dobon (MiN)",
+"[Dolce Einsatz (Tomoe Kiko)",
+"[Dorobou Neko (NORIKO)",
+"[Doronko Yuuyake",
+"[Double Knockout (Natsuno)",
+"[Double Slash (Orishima Yupopo)",
+"[Doumo Sumimasen. (Dogeza)",
+"[Douraku Kikou (Gan Son)",
+"[downbeat (Kirimoto Yuuji)",
+"[Draw Two (Draw2)",
+"[Dreamy Kikaku",
+"[Drum-kan (Kine)",
+"[DSSK (Yorihito)",
+"[DUMMY.N (Nemusugi Ruko)",
+"[Earthly Southern Cross (Hashiba Rin)",
+"[Ebony Thunder (EGAMI)",
+"[ECHO (Echo Jiro)",
+"[EgoRhythm (Sakiko)",
+"[Enokinoki (Fujinami)",
+"[Erectlip",
+"[ErotIs (Narita Kou)",
+"[Esebateira (Shibuki)",
+"[esmeralda (Mitsuki)",
+"[EX35 (Kamaboko RED)",
+"[ez goin' (ez)",
+"[FISH AND CHICKEN (Samoko)",
+"[FLAT (Fujino Akitsugu)",
+"[Folgore, Tommy (Gantai Higemania, Tomita)",
+"[fudianshi",
+"[Fukagawa (Kaya Tsuzurao)",
+"[Fukagawa (Tsuzurao Kaya)",
+"[Funyamafu (Sakazuki Ran)",
+"[Gakuen Tengoku (Himi Kazusa)",
+"[Gal Prince",
+"[Gatekeeper (Sasaki Kisara)",
+"[Genkaiten (URin)",
+"[Gesuidou Megane (Jiro)",
+"[Getsumen-Spiral (Mayama Satori)",
+"[GiftKuchen (Shitori)",
+"[GiGiGi Myou (Hayami Kuro)",
+"[Gindama Explorer (Hinode Apartment.)",
+"[Giselle, Honetukiniku (Rinkoyo, Sebone)",
+"[Goma Saba (Natsuo Monaka)",
+"[GOOD ANIMALS (Inukai)",
+"[Gorilion (Kyuun)",
+"[Gotou Sekai (Gotou Isa)",
+"[ground-k (Kaneda)",
+"[gulp (Hinotora)",
+"[Gum Tape Type (Nauchi)",
+"[GUZ (Okami Hazuki)",
+"[HAIMITAI (Supana)",
+"[Hakuchuu Doudou (Rian)",
+"[Hanrangen ",
+"[Hanrangen",
+"[Hariko no Tora (Midoh Torako)",
+"[Haru ga no (Harugano Kaoru)",
+"[Harugane Colse (Inose)",
+"[Hata Natsumi",
+"[Hebereke (Nomiya Keyo)",
+"[heinel (Mariko)",
+"[Heppoko Drill (Soguni Mana)",
+"[Higashi Mikuni Kamen (Saitoh Maho)",
+"[HINATUYA (Ayanoumi)",
+"[hn (Pirori)",
+"[Hokou Kikai",
+"[HONEY QP (Inochi Wazuka)",
+"[Hoshimura (Tsugu Yuu)",
+"[Hot Inari (Nari)",
+"[HOT LIMIT (Shitsuki Aya)",
+"[Houkiboshi (Maruna)",
+"[HP0.01 (Eikichi)",
+"[HPSK (SK)",
+"[Hyouhon Shounen (Momo Sango)",
+"[Ibaramichiotokogumi (myu, Natsuki)",
+"[ick. (Karo)",
+"[ima,mottomo. (Imamoto)",
+"[InkStone (Amami Ryouko)",
+"[Inomoto Rikako",
+"[INSCRUTABLE (Kozuka Riho)",
+"[Inugoya (Inu)",
+"[Inuwanko",
+"[Issou g (Ichinashi Kimi)",
+"[Itachi Gokko (Takezamurai)",
+"[J.O.C e.go!! (Midori Kouichi)",
+"[J.O.C★e.go!! (Kasuga Souichi)",
+"[Jam Session (Sudayoshi)",
+"[Jamboree! (jin)",
+"[Jamboree! (jin)",
+"[Jomanda (Yamakuchi Suzuko, Minowa Eriko)",
+"[K to S (RosaReah)",
+"[K2★Crack (Hanaya Guy)",
+"[Kaitei Heidan (Kura)",
+"[KAKUNI (Iwano)",
+"[KANGAROO KICK (Takagi Takumi)",
+"[Kangaroo/TANSANSHONEN",
+"[Karaage of the Year (Karaage Muchio)",
+"[Karappo (1103)",
+"[Karasu-dou (Aka Karasu)",
+"[Karedake (2310)",
+"[KCKC (Izumi Bouko)",
+"[keenism (keeny)",
+"[Keishin",
+"[KH. (Yuki)",
+"[Killer Bambi (Matsumoto Inaki)",
+"[Killer Bambi (Matsumoto Inaki)",
+"[kirari",
+"[Kitsune (Tachikawa Negoro)",
+"[KoDoMohonpo (Kayuge)",
+"[KoDoMohonpo (Kayuge)",
+"[Kokecocco (Karaage)",
+"[Konekopunch (Hayakawa Minami)",
+"[Koorigumo (KENN)",
+"[koromo's factory (Koromo)",
+"[Kouji (Yuuri)",
+"[Koukai (Kobato)",
+"[Koutetsuro (Sakiika.)",
+"[krgmICE. (Kuromine)",
+"[Kuromame Pack (Kuromame)",
+"[Kuzumochi (Kuzukiri, Kuzuyu)",
+"[Kyuukyuubako (Band Aid)",
+"[La-Pis (Kuuya Wataru)",
+"[LARZ-SILT AG+",
+"[LARZ-SILT AG+",
+"[laudanum (Hama Watari)",
+"[laylow (Achi)",
+"[LBK+, Romeo Plus (KEVIN, Ayame Chinami)",
+"[LEFT (ore)",
+"[LEGO! (Nakagawa)",
+"[LI Project",
+"[LioiL (Kawana Mario)",
+"[LIQUID BERRY REVOLUTION (Ashita)",
+"[Lotus (Asatsuki Hikaru)",
+"[lozz (Konno Seara)",
+"[LUFT SLOTT. (Aja.)",
+"[M&LH (acca)",
+"[MACARONICO (Macaroni, Nico)",
+"[maguro. (Yukina)",
+"[Majihama. (Mebata Shun)",
+"[Makeinu (Hateru)",
+"[Maraparte (Kojima Shoutarou)",
+"[marigold (Momoe)",
+"[Maririn",
+"[Maru Tendon (Eikichi)",
+"[Maru Tendon (Eikichi)",
+"[Masamune Kokichi (Matsu Takeshi)",
+"[Masamune Kokichi (Matsuzaki Tsukasa, Yamada Sansuke)",
+"[Matango Honten (Tomakomai)",
+"[MECCHORI (Mitsuru)",
+"[Mekyaku Mayim (Matsumoto Ken)",
+"[Mentaiko (Itto)",
+"[Mercuro",
+"[MERYx3 (Numeri)",
+"[metro boy (Asino)",
+"[MGN (Shimizu Aoto)",
+"[MICAN-DOU (Matsumoto Mican)",
+"[Mikli (Sugatamayo)",
+"[Mine Noujou (Mine Mura)",
+"[Minmin (Tomokasa)",
+"[Mitsuya Yorgl (Futaba841)",
+"[Mitsuzukitou (Matsuri)",
+"[MixTurE (Nori)",
+"[Mnemosyne (Ayakita)",
+"[mocomoco (JOY)",
+"[Moegun (Daikichi, Hachiya)",
+"[Mokkuafunfun (Umai Sake)",
+"[Momozakura (Momozakura Uduki)",
+"[Monaco Meister (Kodama Naoko)",
+"[Moudou (Kiritan)",
+"[Mousou Katharsis (Asagi Shion)",
+"[Mousou Wakusei (Moritake)",
+"[MTD (Rei)",
+"[MYBABY-10th (Fujiwara Ena)",
+"[Nabe (Yoshitaka)",
+"[Naikai (Emilio)",
+"[Nanashi Shounen (7c)",
+"[NANASHINO (mura.)",
+"[Natsutama (Daichi Kouta)",
+"[Natsutama]",
+"[NATURAL DISTANCE (Anita)",
+"[Ne2t (Neko do)",
+"[NEO GENESIS (Sakaki Aruko)",
+"[NEO-de (Natsuzaka)",
+"[Neru Neru (Nerune)",
+"[Netanian (Netani)",
+"[neutral. (Shimajima Othello)",
+"[Neyukidou (Takaku Nozomu)",
+"[NG (Noda Gaku)",
+"[Niboshiya (Mayokiti)",
+"[Nn (Noni)",
+"[NO RESET CLUB (Sakurai Shushushu)",
+"[noff (Fly)",
+"[NOIR (Michael)",
+"[Nonomiya Chiyoko",
+"[Nostalgia (Otsuki)",
+"[Ns:plus (Isa)",
+"[Nyanbers (Bingo)",
+"[obake (Sakuma)",
+"[oden.jpg (Mojyako)",
+"[Ohige (Kanu)",
+"[Ohige",
+"[OJmomo (yoshi)",
+"[OKAMU-LAND (Hobi)",
+"[ONEM (Uto)",
+"[oniyuri (Tayoko)",
+"[Onjire (Tamy)",
+"[Oomi Tsutou (Tokugawa Ranko, Hayami Masumi)",
+"[Ooshiba Tetsuo",
+"[Orange Peel (Misaragi)",
+"[Origotoh, Yoidukiya (Suehiro Yoshiyuki, Touya)",
+"[Oshiai Heshiai Dotukiai (smaru)",
+"[Otomezaryuseigun (Mika)",
+"[Ozo",
+"[Palin (Hirano)",
+"[palindrome (Mawari Ayako)",
+"[Panda 4gou (Shima Kyousuke)",
+"[pantwo (ziz)",
+"[Param (Kyuuma)",
+"[Pararira (Okayu)",
+"[ParisPink (Parispi)",
+"[Penguin Frontier",
+"[PEPERMOON (Soraumi Riku)",
+"[PERROs (Kai Hayato, Keita)",
+"[PERROs",
+"[pg (Toufu)",
+"[Pink Elephant (Kotori)",
+"[PINK GARDEN (Ashika Nozomu)",
+"[Pinke (Kaya)",
+"[plus810 (Yamada Non)",
+"[pobee (Gurasuke)",
+"[Pochon (Yosa, Chisato)",
+"[Poison Carrot!!",
+"[POM (Shishamo)",
+"[Pomatobatake (Kin29 Nitaro)",
+"[pp.mu! (Takepon)",
+"[PROMENADE (Shibao Kenta)",
+"[Pupu (Poron)",
+"[Purin no Kanzume (IHANA Usagi)",
+"[Qcumber (久理)",
+"[QQaid (Kuro)",
+"[Quartierlatin (Wasi)",
+"[R*kaffy (Aichi Shiho)",
+"[R2 (Sarry)",
+"[Radistar (157)",
+"[Raku saba shironeko (FENN)",
+"[RB (Heso Kugi)",
+"[RE:GA (Suzuki Ichifuyu)",
+"[Rebellion (Janne Koheiji)",
+"[Red Rose Party (Sumio)",
+"[Renbu EXE (Subuta)",
+"[Replicailia (Una)",
+"[RIRIADOLL (Takewakamaru)",
+"[RMB! (Yukichi)",
+"[Rokka (Yuinoz)",
+"[ROKUJO DAYS (Yoshidaya Roku)",
+"[Rozaria (Azuna Yuzuki)",
+"[RRO (Ruratto)",
+"[RRO (Ruratto, Iko)",
+"[Runa (Byakuan)",
+"[Ruu Kikaku (Ruuen Rouga)",
+"[Rycanthropy (Mizuki Gai)",
+"[Rycanthropy (Mizuki Gai)",
+"[Ryuusei Potechi (Hinami)",
+"[SAIKARE (107 Shiki)",
+"[Sakananohone (maza-)",
+"[Sakananohone (maza-)",
+"[Salt Peter (Tenma)",
+"[Saragi (R5)",
+"[SAWRED",
+"[SECIAMU (Sakimoto)",
+"[secret soldier (Yasuda Shinogu)",
+"[Seishinteki Ni Koujoushin Ga Nai Mono Wa Baka da (Tomako)",
+"[Seki Sabato (Tsukuru)",
+"[Sengoku cartoon (Matsuzono)",
+"[Shishunki Fortune (Taira Hitoshi)",
+"[Shounen Byoukan (Kanno Izuka)",
+"[Shounen Zoom (Shigeru)",
+"[Shounen Zoom (Shigeru)",
+"[Shuryousha (Urame)",
+"[Shuukyuu Itsukasei (Touya Tsuduru)",
+"[SILLKY BLANC (Otousan)",
+"[SKYJACK (Kitajima)",
+"[SM Potato (Kumo)",
+"[Spira Mirabilis (Yamada Mitsubachi)",
+"[SPNN (Nanashi, Supa)",
+"[Strawberry55 (Mitsuya)",
+"[STUDIO ASUMA (Matsumoto Seama)",
+"[Studio Dimple (Tsumugi Kyuuta)",
+"[SU (Enuko)",
+"[sukinaco (Imai)",
+"[super-hiropon (Ponta)",
+"[Sushipuri (Kanbe Chuji)",
+"[Swallow Sky (Rihara)",
+"[T-CUBE+ (Nagiisora)",
+"[Tagame Gengoroh",
+"[Takaku Nozomu",
+"[Takenoko Gohan VF (Takenokoya, Turn K)",
+"[Takenoko Gohan, Buaifamu (Takenokoya)",
+"[Takezamurai",
+"[Tamago no Kara",
+"[Tanakana_Kuchidakebanchou",
+"[Tasomorera (Izumi Makoto)",
+"[Taurin 1 Oku (Tataru)",
+"[Tengai Aku Juumonji",
+"[TETSU-SABI (Fumidzuki-ji A)",
+"[The Powerfull Battery (BomBom)",
+"[TK (Gohan)",
+"[Tokage Ball (Ichikura Tokage)",
+"[Tokyo Coin Rocker Baby (agaccho)",
+"[Tokyo Note, UOHSAOH (Amamiya Amako)",
+"[Tokyo Note, UOHSAOH (Amamiya Amako, Miwa Chikara)",
+"[TomCat (Keita)",
+"[Torajima-shi Kouhouka (Torajimaneko)",
+"[TOTO (Satou Sugama)",
+"[Tsunamushi",
+"[Tukunent (Tukune Tissue)",
+"[tunasand (Tuna)",
+"[U.D.D",
+"[UC*Parade (Satsuki)",
+"[udon2soba (Tenpura Tamao)",
+"[Ultimate Drug D-side",
+"[UltimatePowers (RURU)",
+"[UMBRELLA (Kasa)",
+"[Underground Campaign",
+"[UNVER (Shiroshita Ayu)",
+"[Urusai Kokuen (Ekataraf)",
+"[Usamimi Syndrome (Erutasuku)",
+"[VAPOR (NEEMA)",
+"[Vivace (Mikado)",
+"[Voyager Project (Konoe Ayahisa)",
+"[Waradoko (Warabi Ginta)",
+"[Wasukoro (Nukobao)",
+"[Wasukoro (Sakaki)",
+"[WILD HALF (Ryo Takahashi)",
+"[WORLD BOX (yuu)",
+"[Wosaru Shoukoukai (Nekotsuki Izumi, Heesuke)",
+"[Wyinji",
+"[Yabure Kabure (Agemon)",
+"[Yakisaketeishoku (Xigma)",
+"[Yakou Kyoku (Ihama Daka)",
+"[YAMY (Mukko)",
+"[Yaranaika (NakamuraQ)",
+"[yemak (yemak)",
+"[Yes,sir. (Epuko)",
+"[Yinghua (sinba)",
+"[Yotto. (Yoro, Tomozou)",
+"[Yu-cho (Pal)",
+"[Yutsuki (Ryuuk)",
+"[Yuzuru / LEVIN",
+"[Z32 (Z32)",
+"[Zanmai (Yuni)",
+"[Zanmai (Yunisuke)",
+"[Zarigani ARMS (20)",
+"[zatta (tomose)",
+"[Zenkai Charge RL (Mio, Kusuhara Nao)",
+"[アベハル",
+"[田亀源五郎",  
+"[魚肉と鳥肉",
+
+=gay
+$
+"[001 (Iimo)",
+"[3×3CROSS (Marimo)",
+"[8°]",
+"[:DOG VILLE, Tokyo Coin Rocker Baby",
+"[Akareshina (Hidaka Naruse)",
+"[Ambient (Kuriyama Natsuki)",
+"[Animalism (Takagi Kyou)",
+"[Aozora (Nosada)",
+"[Asukara (Isao)",
+"[Bear Tail (Chobi)",
+"[Biinyajou (Tomoi)",
+"[Blue Hawaii (Bu)",
+"[Celsius (Torikawa)",
+"[Chaos Cradle",
+"[Chibineco Honpo (Chibineko Master)",
+"[Chisha no Mi (Hidaka)",
+"[Chojin/KAMONEGI",
+"[ciao,baby (Miike)",
+"[Club-Y",
+"[Crazy Joker (Kawase Hizuri)",
+"[D-2 (Miyasugi Miyu)",
+"[Dark Water (Tatsuse)",
+"[Denten, FUMUx2 (Tono)",
+"[Dilcissime (Sakonishi)",
+"[Dobon (MiN)",
+"[Double Knockout (Natsuno)",
+"[Douraku Kikou (Gan Son)",
+"[downbeat (Kirimoto Yuuji)",
+"[Dreamy Kikaku",
+"[DUMMY.N (Nemusugi Ruko)",
+"[Erectlip",
+"[FISH AND CHICKEN (Samoko)",
+"[Folgore, Tommy (Gantai Higemania, Tomita)",
+"[fudianshi",
+"[Gal Prince",
+"[Gum Tape Type (Nauchi)",
+"[Hata Natsumi",
+"[Hebereke (Nomiya Keyo)",
+"[HINATUYA (Ayanoumi)",
+"[Hoshimura (Tsugu Yuu)",
+"[Hot Inari (Nari)",
+"[ima,mottomo. (Imamoto)",
+"[INSCRUTABLE (Kozuka Riho)",
+"[Inuwanko",
+"[Jam Session (Sudayoshi)",
+"[Kangaroo/TANSANSHONEN",
+"[Keishin",
+"[kirari",
+"[KoDoMohonpo (Kayuge)",
+"[Koorigumo (KENN)",
+"[Koukai (Kobato)",
+"[LARZ-SILT AG+",
+"[LBK+, Romeo Plus (KEVIN, Ayame Chinami)",
+"[LI Project",
+"[Lotus (Asatsuki Hikaru)",
+"[M&LH (acca)",
+"[Makeinu (Hateru)",
+"[Maririn",
+"[Masamune Kokichi (Matsuzaki Tsukasa, Yamada Sansuke)",
+"[Matango Honten (Tomakomai)",
+"[Mekyaku Mayim (Matsumoto Ken)",
+"[Mercuro",
+"[MICAN-DOU (Matsumoto Mican)",
+"[Mikli (Sugatamayo)",
+"[Mitsuzukitou (Matsuri)",
+"[mocomoco (JOY)",
+"[Moudou (Kiritan)",
+"[Natsutama (Daichi Kouta)",
+"[Netanian (Netani)",
+"[neutral. (Shimajima Othello)",
+"[Nonomiya Chiyoko",
+"[Nostalgia (Otsuki)",
+"[Nyanbers (Bingo)",
+"[Ohige",
+"[Oomi Tsutou (Tokugawa Ranko, Hayami Masumi)",
+"[Ooshiba Tetsuo",
+"[Origotoh, Yoidukiya (Suehiro Yoshiyuki, Touya)",
+"[Oshiai Heshiai Dotukiai (smaru)",
+"[Ozo",
+"[Palin (Hirano)",
+"[palindrome (Mawari Ayako)",
+"[PEPERMOON (Soraumi Riku)",
+"[PERROs (Kai Hayato, Keita)",
+"[PERROs",
+"[PINK GARDEN (Ashika Nozomu)",
+"[pobee (Gurasuke)",
+"[Pochon (Yosa, Chisato)",
+"[Raku saba shironeko (FENN)",
+"[RE:GA (Suzuki Ichifuyu)",
+"[RMB! (Yukichi)",
+"[Ryuusei Potechi (Hinami)",
+"[SAIKARE (107 Shiki)",
+"[Salt Peter (Tenma)",
+"[SAWRED",
+"[SECIAMU (Sakimoto)",
+"[Sengoku cartoon (Matsuzono)",
+"[SPNN (Nanashi, Supa)",
+"[T-CUBE+ (Nagiisora)",
+"[Tanakana_Kuchidakebanchou",
+"[Tasomorera (Izumi Makoto)",
+"[The Powerfull Battery (BomBom)",
+"[Tokage Ball (Ichikura Tokage)",
+"[TOTO (Satou Sugama)",
+"[Tsunamushi",
+"[Underground Campaign",
+"[Urusai Kokuen (Ekataraf)",
+"[Wosaru Shoukoukai (Nekotsuki Izumi, Heesuke)",
+"[Wyinji",
+"[Yakisaketeishoku (Xigma)",
+"[Yutsuki (Ryuuk)",
+"[Yuzuru / LEVIN",	アポエポ社 (ゆずる)
+"[Zanmai (Yunisuke)",
+"[Zenkai Charge RL (Mio, Kusuhara Nao)",
+"[アベハル",
+"[田亀源五郎",  
+"[魚肉と鳥肉",
+$
+10.10MHz (ととふみ)
+100Mジャック (えびさわにら)
+238 (ミツ, ハチ)
+23924 (Miko)
+39dmp (たちばなえい)
+4DIP (タルト)
+500ft (空尾)
+6109 (桐式トキコ)
+6counter (しゅうきち)
+84 (ハシ)
+8days (久遠鞠乃)
+@N (unico)
+A-mw. (makka)
+あばらが痛い (シン太)
+あっちっち (鐘ヶ江しょうこ)
+ADVANX (ADVANX)
+アフロヤ宴 (にゃん吉)
+アイスクレヨ (星屑ノユ)
+赤木蓮家 (木の子ゆん, 赤星)
+明けの明星 (結城たける)
+アキタク＊キカク (拓ヒラク)
+空屋 (すずさわ)
+アクオチスキー教室 (アクオチスキー先生)
+Al:side-G (陽翠ゆう)
+アルトピア (あると)
+あまらんす (藤村まりな)
+天閑 (氷凪K)
+雨上がり☆After School (木元ハジメ)
+あめりかん☆ろっく (宵野コタロー)
+あみや (のの)
+anything (naop)
+アポエポ社 (ゆずる)
+APOLLO (JIRO)
+archea (笹川ながる)
+刑法第60条 (主犯)
+Ash Wing (まくろ)
+ass (伊藤えみ李)
+アサルトビア (KOMA)
+星群 (嗣遊)
+アタマヌルイMIX-eR
+Atonexia (Ato)
+AWAYOKUBA (ゆっけ)
+藤井あや個人サークル (藤井あや)
+バンブーリング! (イソベ)
+bb (うめ)
+BEVEL (ベベユ)
+美薬 (藤井麻香)
+black line:01 (snail)
+Black Monkey_Black Monkey (Mazjojo, Zamius)
+BlackApple (りょう)
+BLUE HOOF (わこ)
+BOOBY TRAP (YANAGI)
+暴走キャッシュバック (姫希)
+C2.inc (C2)
+CACHE-CACHE (南條パピ子)
+カロリーオフ (アサヒ)
+CASHLAIM (はる)
+ ケミカルドロップ(桐ヶ谷佳里)
+チェリームーン (圭島瞬里)
+chicken (39郎)
+恥辱庵
+CHIN-UP (ぽっち)
+ちょこばなな。 (ナナキナナ)
+ChocoChro. (ごじょー)
+チョコレートマカロン (芳澤ばにら)
+CLASSIC MILK、PEACE and ALIEN (朝丘夏生、十七星ふき)
+クレイジーソルト (なすきち)
+CLUB-Z (日向野牙樹)
+COLOR PALETTE (志帆)
+COMPLETE ZERO (こみの)
+COSMIQ (野々山ちうた)
+Crazy9 (いちたか)
+CRAZYPIG777 (とんかつ)
+cullet (滝)
+D-Amb (千歳ぴよこ)
+dalia (カダリンカ)
+弾丸オーケス (鎮宮柊)
+delica (みと)
+dg (どぐう)
+DIANA (アッサ)
+ディートヘルム (みずゆき)
+DMB (神田)
+Dolce Einsatz (トモエキコ)
+泥棒猫 (NORIKO)
+どろんこ夕焼
+ダブルスラッシュ (織島ユポポ)
+どうもすみません。 (土下座)
+Draw Two (土狼弐)
+ドラム缶 (杵)
+DSSK (頼一)
+アースリィサザンクロス (羽柴麟)
+[漆黒の霹靂 (EGAMI)
+ECHO (江高次郎)
+エゴリズム (サキコ)
+えのきのき (藤並)
+ErotIs (成田コウ)
+エセバテイラ (飛沫)
+esmeralda (ミツキ)
+EX35 (かまぼこRED)
+ez goin' (ez)
+FLAT (藤乃明亜)
+深川 (九尾かや)
+ふにゃまふ (サカヅキラン)
+学園天国 (氷見上総)
+げーときーぱー (佐々木きさら)
+限界点 (ううりん)
+下水道めがね (じろう)
+月面スパイラル (真山さと莉)
+GiftKuchen (シトリ)
+GiGiGi妙 (速水くろ)
+銀玉えくすぷろ～ら (日の出ハイム)
+Giselle (りんこよ)_ほねつきにく (背骨)
+ごまさば (なつおもなか)
+GOOD ANIMALS (犬飼)
+ゴリライオン (きゅうん)
+誤答世界(誤答イサ)
+ground-k (かねだ)
+gulp (ひのとら)
+GUZ (大神はづき)
+灰みたい (スパナ)
+白昼堂々 (りあん)
+氾濫源_同人團多作者
+はりこのとら (水堂とらこ)
+春が野 (春が野かおる)
+ハリガネコルセ (イノセ)
+heinel(マリコ)
+ヘッポコドリル (そぐに真菜)
+東三国仮面 (斎藤まほ)
+hn (ぴろり)
+補講機械
+HONEY QP (命わずか)
+HOT LIMIT (史月綾)
+箒星 (まるな)
+HP0.01 (えいきち)
+HPSK (SK)
+標本少年 (モモサンゴ)
+荊道男組 (myu、夏樹)
+ick. (加村カロ)
+InkStone (あまみりょうこ)
+井ノ本リカ子
+犬小屋 (イヌ)
+一掃g (市梨きみ)
+いたちごっこ (武侍)
+J.O.C★e.go!! (カスガソウイチ)=J.O.C★e.go!! (ミドリコウイチ)
+Jamboree! (jin)
+Jomanda (耶麻口鈴子, 箕和エリコ)
+KとS (RosaReah)
+K2★Crack (花谷ギイ)
+海底兵団 (クラ)
+KAKUNI (いわの)
+KANGAROO KICK (高城たくみ)
+からあげオブザイヤー (からあげむちお)
+Karappo (1103)
+カラス堂 (紅カラス)
+カレダケ (2310)
+KCKC (和泉棒子)
+keenism (keeny)
+KH. (有紀)
+KILLER BAMBI (松本いなき)
+来つ寝 (立川ねごろ)
+こけこっこ (からあげ)
+虎猫パンチ (早川みなみ)
+koromo's factory (衣)
+小路 (ユウリ)
+鋼鉄朗。 (さきいか。)
+黒ゴマice. (黒峰)
+くろまめぱっく (クロマメ)
+くずもち (くずゆ, くずきり)
+救急箱 (バンドエイド)
+La・Pis (空矢渉)
+laudanum (浜渡)
+玲瓏 (アチ)
+LEFT (ore)
+LEGO! (中川)
+LioiL (河奈マリオ)
+LIQUID BERRY REVOLUTION (あし太)
+lozz (紺野せあら)
+LUFT SLOTT. (Aja.)
+MACARONICO (マカロニ, nico)
+maguro. (ゆきな)
+マジハマ. (めばた瞬)
+まらぱるて (小島祥太朗)
+marigold (ももえ)
+まる天丼 (英吉)
+マサムネ☆コキチ (松武)
+めっちょり(みつる)
+♂めんたいこ♂ (一十)
+MERYx3 (ぬめり)
+metro boy (Asino)
+MGN (清水アオト)
+ミネ農場 (ミネむら)
+みんみん (ともかさ)
+ミツヤヨーグル (双葉841)
+MixTurE (乃梨)
+Mnemosyne (綾北)
+もえがん (だいきち、八郎)
+モックアフンフン (うまいさけ)
+桃桜 (ももざくら卯月)
+モナコマイスター (コダマナオコ)
+妄想カタルシス (浅葱しおん)
+妄想惑星 (モリタケ)
+MTD (レイ)
+MYBABY-10th (藤原江奈)
+鍋 (よしたか)
+Emilio (タクアン)
+ナナシ少年 (7c)
+NANASHINO (村。)
+なつたま
+NATURAL DISTANCE (あにた)
+Ne2t (ねこド)
+NEO GENESIS (サカキアルコ)
+NEO-de (夏坂)
+ねるねる(ねるね)
+根雪堂 (高玖のぞむ)
+NG (NODAガク)
+にぼし屋 (まよ吉)
+Nn (のに)
+NO RESET CLUB (櫻井しゅしゅしゅ)
+noff (フライ)
+NOIR (Michael)
+Ns:plus (なるせいさ)
+obake (さくま)
+おでん.jpg (もじゃこ)
+おひげ (カヌ)
+OJmomo (yoshi)
+OKAMU-LAND (ホビ)
+ONEM (うと)
+ONIYURI (たよこ)
+おんじれ (たみー)
+Orange Peel (みさらぎ)
+乙女座流星群 (ミカ)
+パンダ4号 (志摩)
+pantwo (ziz)
+PARAM (九磨)
+パラリラ (お粥)
+ParisPink (ぱりすぴ)
+Penguin Frontier
+pg (豆腐)
+Pink Elephant (コトリ)
+ぴんけ (かや)
++810 (やまだノン)
+ポイズン・キャロット!!
+POM (ししゃも)
+ポマト畑 (金児久煮太郎)
+pp.mu! (たけぽん)
+PROMENADE (柴尾犬汰)
+ぷーぷ (ぽろん)
+ぷりんの缶詰 (如花うさぎ)
+Qcumber (久理)
+QQaid (クロ)
+カルチェラタン (和紙)
+アールカフィ (あいち志保)
+R2 (サリー)
+ラジスタ (157)
+RB (へそくぎ)
+Rebellion (じゃんぬ小平次)
+Red Rose Party (Sumio)
+恋舞EXE (すぶた)
+レプリカイリア (うな)
+RIRIADOLL (武若丸)
+六花 (ゆいのじ)
+六情デイズ (吉田屋ろく)
+ロザリア (アズナ悠月)
+RRO (るらっと)
+RRO (るらっと, いこ)
+白庵 (るんぁ)
+龍企画 (龍炎狼牙)
+Rycanthropy (水樹凱)
+さかなのほね (maza-)
+蛇穴 (R5)
+secret soldier (やすだしのぐ)
+精神的に向上心がない者は馬鹿だ (とま子)
+関サバト (作)
+シシュンキ・フォーチュン (平均)
+少年病監 (かんのいずか)
+少年ズーム (しげる)
+狩猟社 (裏目)
+週休五日制 (塔夜綴)
+SILLKY BLANC (お父さん)
+SKYJACK (北島)
+SMポテト (雲)
+スピラ・ミラビリス (山田ミツバチ)
+Strawberry55 (三ツ矢)
+STUDIO ASUMA (マツモトシィマ)
+スタジオDimple (紬きゅうた)
+SU (えぬこ)
+sukinaco (今井)
+super-hiropon (ぽんた)
+スシプリ (かんべ忠治)
+Swallow Sky (リハラ)
+田龜源五郎
+高玖のぞむ
+筍御飯VF (筍屋, たーんけー)
+筍御飯, ぶあいふぁむ (筍屋)
+タマゴノカラ (しろー)
+タウリン1億 (タタル)
+天外悪十文字
+鉄錆 (文月路亜)
+TK (ごはん)
+東京コインロッカーベイビー (アガッチョ)
+東京ノート、UOHSAOH (雨宮雨子)
+東京ノート, UOHSAOH ( 雨宮雨子, 美和チカラ)
+[TomCat (京太)
+寅島市広報課 (とらじまねこ)
+ツクネント (つくねティシュ)
+tunasand (ツナ)
+U.D.D
+UC*Parade (さつき)
+うどんにそば (天ぷらたまお)
+Ultimate Drug D-side
+UltimatePowers (RURU)
+UMBRELLA (かさ)
+UNVER (シロシタアユ)
+うさみみしんどろーむ (えるたすく)
+VAPOR (NEEMA)
+Vivace (みかど)
+Voyager Project (近衛礼久)
+わらどこ (わらび銀汰)
+わすころ (ぬこばお)
+わすころ (さかき)
+WILD HALF (高橋稜)
+WORLD BOX (郵)
+やぶれかぶれ (アゲモン)
+Yakou Kyoku (Ihama Daka)
+YAMY (むっこ)
+やら内科 (中村キュー)
+yemak (yemak)
+Yes,sir. (えぷ子)
+インファ (sinba)
+よっと。 (よろ, トモゾウ)
+ゆーちょ (ぱる)
+Z32 (Z32)
+三昧-zanmai- (ユニ)
+ザリガニARMS (廿)
+zatta (トモセ)
+=
