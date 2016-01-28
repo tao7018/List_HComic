@@ -160,7 +160,7 @@ if pn.isdigit():
     
     fout = open('output/'+key.decode('utf-8') + '_comiclistv1.txt', 'w')#寫入模式開檔
     fout.write('comiclist\n')#comiclist
-    print key.decode('utf-8') , pn , 'num\n========v1'
+    print key , pn , 'num\n========v1'
     time.sleep(1)
     #fout.write('!' + key + '\n!總筆數' + soup.find_all('b')[1].text.encode('utf8') + '\n')
     fout.write('!' + key + '\n!總筆數' + pn.encode('utf8') +'_'+ strftime("%Y/%m/%d,%H:%M")+'->')
