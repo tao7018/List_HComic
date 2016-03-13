@@ -213,7 +213,7 @@ def findbook(soup , page = 1):
             book=club+'_'+book
             dict1.setdefault(date,book)
         else:
-            book=u'['+club+'_'+name+u']'+book+'\n'+blink
+            book=u'['+club+'_'+name+u']'+book+'\n!'+blink
             dict2.setdefault(date,book)
         
         #continue

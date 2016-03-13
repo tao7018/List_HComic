@@ -118,7 +118,7 @@ def findbook(soup , page = 1):
         
         #中古委託販売_レンタルケース
         if (u'レンタルケース' in cdata.text) or (u'中古委託販売' in cdata.text):
-            print 'nocomment'
+            #print 'nocomment'
             if key.decode('utf8') in cdata.text:
                 check=2
         elif key.decode('utf8') in Q2B(ctit):
@@ -130,7 +130,7 @@ def findbook(soup , page = 1):
             craw=cdata.select('a')[2].text
             ctit=ctit[ctit.rfind('[')+1:ctit.rfind(']')]
         #作者
-        if key.decode('utf8') in Q2B(cname):
+        if key.decode('utf8') == Q2B(cname):
             check=1
         
         #id處理
@@ -222,10 +222,10 @@ if pn>0:
     fout.write(strftime("%H:%M")+'\n')
     temp = ''
     #dict1_目標作者
-    fout.write('==tn_' + str(len(dict1)) +'_同人作品\n')
+    fout.write('==tnbook_' + str(len(dict1)) +'_同人作品\n')
     save(dict1)
     #dict2_委託
-    fout.write('==tn_' + str(len(dict2)) +'_中古委託販売レンタルケース\n')
+    fout.write('==tnother_' + str(len(dict2)) +'_中古委託販売レンタルケース\n')
     save(dict2)
     #dict3_其他
     fout.write('==otn_' + str(len(dict3)) +'_其他\n')
