@@ -5,10 +5,86 @@ from bs4 import SoupStrainer
 from time import gmtime , strftime
 
 '''
-doujishi
+#doujinshi
+作者來源_key.txt
+輸出_key_doujishi.txt
 
-doujishi.txt
-'''
+#流程
+1詳細搜尋頁_最高作品數作者
+2作者頁_別名
+3作品頁_作者+同人場次
+4輸出
+#更新
+1詳細搜尋頁_最高作品數作者
+2已有檔案_搜尋比對筆數
+3作品處理
+4輸出_更新筆數日期&在頁尾新增
+
+#網站日期排序
+預設非日期排序
+可以選擇排序
+
+#不處理類別
+商業アートブック_商業CG_商業その他_商業ソフト_漫画 (抜粋)
+海賊版_カレンダー_ムック_ポストカード_ポスター_下敷き_テレホンカード_不詳
+同人グッズ_同人映像作品_同人音楽作品_同人その他_同人ソフト
+#處理類別
+同人CG_同人ノベル_同人誌
+漫画_雑誌_商業ノベル_商業本その他
+#分類
+1單同_同人CG_同人ノベル_同人誌
+2多同
+3單漫_漫画
+4雑誌
+5多漫_商業ノベル_商業本その他
+6別名同
+7別商
+8一般商
+
+#結果key_doujinshi.text
+#輸出格式：
+doujinshi
+!作者_doujishiID
+!總筆數_開始時間->結束時間
+!商業刊出道時間_[別名]
+==djs_數量_同人(同人CG_同人ノベル_同人誌)
+[原作][同人場cXX]作品名
+==ndjs_數量_同人合本
+[同人團][作者][原作][同人場cXX]作品名
+!作者數!作品網址
+==book_數量_單行本(漫画)
+作品名
+==magazine_數量_雜誌(雑誌)
+[作者]作品名
+!作者數!作品網址
+==other_數量_其他商業作品(商業ノベル_商業本その他)
+[類型][作者]作品名
+!作者數!作品網址
+==ondjs_數量_別名同人
+[同人團][作者][原作][同人場cXX]作品名
+!作者數!作品網址
+==onbook_數量_別名商業作品
+[類別][作者]作品
+!作者數!作品網址
+==nomal_數量_一般向商業作品
+[類別][作者]作品
+!作者數!作品網址
+
+#67類
+!!!!未被列出別名作者
+
+#網址
+http://www.doujinshi.org/search/item/?order=objects&T=author&flow=DESC&sn=%E7%8A%AC&Q=s&match=3&page=1
+http://www.doujinshi.org/browse/author/42893/Hisasi/?order=date&flow=DESC&page=1
+http://www.doujinshi.org/search/item/
+?Q=s&
+T=author&#搜尋項目
+sn=%E7%8A%AC&#關鍵字
+match=3&#搜尋模式_0模糊1前2後3精確4聲似
+order=objects&#排序依據
+flow=DESC#升降_ASC升 DESC降
+#'''
+
 
 #全轉半_unicode輸入
 def Q2B(ustring):
@@ -37,8 +113,10 @@ def B2Q(ustring):
 
 #資料儲存
 def save(fout , listdata , sdict , check=0):
+#def save(listdata , check=0):
     for tep in listdata:
         if sdict.get(tep):
+            #fout.write(sdict[tep].encode('utf8')  + '\n')
             fout.write(sdict[tep]  + '\n')
     #return
 
@@ -59,7 +137,6 @@ def finddata(key , dlink,check,oname,cook):
     n=0
     doname='!!!!'
     
-    #同人
     if check==1:
         dcxx=so.find_all('td',text='イベント:')[0].next_sibling.text.strip(' \n')
 
@@ -81,7 +158,6 @@ def finddata(key , dlink,check,oname,cook):
             draw= 'mix'
         draw= draw.strip('_')
     
-    #標題
     dbook=so.find_all('td',text='原題:')[0].next_sibling.text.strip(' \n')
     
     #name作者
@@ -106,12 +182,13 @@ def finddata(key , dlink,check,oname,cook):
         check=6
     elif dcheck==0:#馬甲
         check=7
-    #
+    
     return dname, dcxx, dbook, dclub, draw, check, doname, n
 
 #資料處理
 def findbook(dictB , listdata , oname , cook , receive):
     link, mindate, key, pn, pnn, olddate=receive
+
     mlink = 'http://www.doujinshi.org/'    
     if len(link)<5:
         return dictB,listdata,oname,mindate,pnn,olddate
@@ -124,33 +201,36 @@ def findbook(dictB , listdata , oname , cook , receive):
     r2=r[r.rfind(rt)+len(rt):r.rfind('</table>')]#主內容
     
     #別名
-    if (int(link[-1:])) and (u'別名' in r1):#別從存在，則加入主要作者名。搜尋名不一定是主名
+    if (int(link[-1:])) and (u'別名' in r1):
+        #so = BeautifulSoup(r1,"lxml")
         rt=r1[r1.find(u'日本名:</B>')+len(u'日本名:</B>'):r1.find(u'<B>名前')]#作者主名
         rt=rt.replace('<br>','').strip().strip('\n').replace('\t','')
         r1=r1[r1.find(u'別名:</B><br>')+len(u'別名:</B><br>'):r1.find(u'<br><B>所属')]#別名內容
         r1=r1.replace('</A><br>','')
         oname=r1.strip().strip('\n').replace('\t','').split('\n')
         
+        tt=0
         for ttemp in oname:
             oname[tt]=ttemp.strip().strip('\n')
+            tt=tt+1
         oname.append(rt)
     
     bn=r2.count('\"thumbnail\"')#頁作品數
     doc=r2.split('<!--round_middle-->')
-    doc.pop()#多餘項
+    doc.pop()
     
     a =0
     for tm in doc[:]:
-        if pnn==0:
-            return dictB,listdata,oname,mindate,pnn,olddate
-        pnn=pnn-1
-        a=a+1
-        print '\r',a,
-        
         sou = BeautifulSoup(tm,"lxml")
         
         ctype=sou.select('.tab.LPEXACT1')[5].text
         clink=sou.a.get('href')
+        
+        if pnn==0:
+            return dictB,listdata,oname,mindate,pnn,olddate
+        pnn=pnn-1#
+        a=a+1
+        print '\r',a,
         
         #類型
         if (u'同人CG' in ctype) or (u'同人ノベル' in ctype) or (u'同人誌' in ctype):
@@ -184,7 +264,7 @@ def findbook(dictB , listdata , oname , cook , receive):
         
         #data處理
         if len(cdata) < 3:#無data
-            cdata = '00000000'#填入data
+            cdata = '0000/00/00'#填入data
             check = 4#
         data = cdata
         while listdata.count(data):#重複data判斷
@@ -199,6 +279,8 @@ def findbook(dictB , listdata , oname , cook , receive):
         cdate=cdate.encode('utf8')
         cname=cname.encode('utf8')
         ccxx=ccxx.encode('utf8')
+        #print cdata,cbook,cclub,craw,ctype,cdate,coname,n,clink,'\ncheck:',check,
+        #print type(craw),type(cclub),type(ccxx),type(coname),type(cdata),type(cdate),type(blink),type(cname),
         
         if n>5 :#太多作者
             cname=key
@@ -241,6 +323,7 @@ def findbook(dictB , listdata , oname , cook , receive):
     return dictB,listdata,oname,mindate,pnn,olddate
 
 ########START
+#main(key='木星在住',ucheck=2,pn=78,nlink='http://www.doujinshi.org/browse/author/36341/Mokusei-Zaijuu/')
 def main(key='',ucheck=0,pn=0,nlink=''):
     #ucheck_0建檔_1更新_2直讀
     
@@ -261,6 +344,18 @@ def main(key='',ucheck=0,pn=0,nlink=''):
     
     olddate=''
     if ucheck != 2:
+        
+        '''if len(key) ==0:
+            fkey = open('key.txt', 'r')
+            nkey=list(fkey)
+            #key = fkey.readline()#key=作者
+            fkey.close()
+
+            key = nkey[0]
+            if '(' in key:
+                key=key[key.find('(')+1:key.find(')')]
+            key=key.strip('\n').strip('').lower()#'''
+
         #key=作者
         key=key.lower()
         key2 = urllib.quote(key.decode('utf8').encode('shift_jis'))#當sjis輸出utf8的url
@@ -270,7 +365,7 @@ def main(key='',ucheck=0,pn=0,nlink=''):
 
         #檢查BOM
         if '%EF%BB%BF' in urllib.quote(key):
-            print 'BOM！'
+            print 'fuck ms'
 
         link="http://www.doujinshi.org/search/item/\
         ?order=objects&T=author&flow=DESC&sn="+key4+"&Q=s&match=3&page=1"
@@ -295,9 +390,11 @@ def main(key='',ucheck=0,pn=0,nlink=''):
             tmp=tmp[tmp.find('"More Info">')+len('"More Info">'):tmp.rfind('(')].strip('\t\n ').lower()#作者
             if key == tmp:
                 nname=nname+1
-                if c==0:#預設處理第一位(也是作品最多的)作者
+                if c==0:#第一位(也是作品最多的)作者
                     c=1
                     nlink=temp.get('href')
+                    #nid=nlink[15:]
+                    #nid=nid[:nid.find('/')]#網站作者流水號
                     nlink=mlink+nlink[1:]#作者網址
 
                     pt=soup.find_all(title='More Info')[a].parent.parent.td.a.text
@@ -305,13 +402,14 @@ def main(key='',ucheck=0,pn=0,nlink=''):
             a=a+1
 
         #updata
+        #olddate=''
         if (ucheck == 1) and (os.path.isfile('output/' + key.decode('utf8') + '_doujishiv1.txt')):#更新與欲輸入檔案存在
             fupdata = open('output/'+key.decode('utf8') + '_doujishiv1.txt', 'r+')
             rf=list(fupdata)
             kc=rf[1]
             if kc[1:len(key)+1] == key:
-                oldn=int(rf[2][10:rf[2].find('_')])#建檔時筆數
-                olddate=rf[2][rf[2].find('_')+1:rf[2].find('_')+11]
+                oldn=int(rf[2][10:rf[2].find('_')])
+                olddate=rf[2][rf[2].find('_')+1:rf[2].find('_')+11].replace('/','')
                 olddate=olddate+str(9999)
 
                 #更新筆數疊加
@@ -320,9 +418,6 @@ def main(key='',ucheck=0,pn=0,nlink=''):
                     rf[rf.index('%\n')]=''#首項處理
                     oldnn=int(rf[ub][7:rf[ub].find('_')])
                     oldn=oldn+oldnn
-                    olddate=rf[ub][rf[ub].find('_')+1:rf[ub].find('_')+11]
-                    
-                olddate=olddate.replace('/','')
                 pn=pn-oldn
                 print '更新筆數'+str(pn)
 
@@ -334,9 +429,11 @@ def main(key='',ucheck=0,pn=0,nlink=''):
         elif ucheck==0:
             print '符合筆數'+str(nname)+'_作品筆數'+str(pn)
     
+    
     #資料筆數_是否數字
     if pn>0:
         pnn=pn
+        #http://www.doujinshi.org/browse/author/
         nid=nlink[39:]
         nid=nid[:nid.find('/')]#網站作者流水號
         if pn > pnum:
@@ -426,10 +523,20 @@ def main(key='',ucheck=0,pn=0,nlink=''):
         print 'ok'
     elif pn:
         print 'No Date'
-    #
-    return
+
+    #結束讀秒
+    x=3
+    while x!=0:
+        print x,'..',
+        x=x-1
+        time.sleep(1)
+    #raw_input("\nPress Any Key To Exit")
+    #return 
 
 #main(ucheck=0)
 
 #已知作者頁面，給定參數建檔。(跳過特殊符號用)
-#main(key='木星在住',ucheck=2,pn=78,nlink='http://www.doujinshi.org/browse/author/36341/Mokusei-Zaijuu/')
+#main(key='木星在住',ucheck=0,pn=78,nlink='http://www.doujinshi.org/browse/author/36341/Mokusei-Zaijuu/')
+#http://www.doujinshi.org/browse/author/36341/Mokusei-Zaijuu/
+#木星在住
+#78
