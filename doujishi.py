@@ -131,8 +131,10 @@ def findbook(dictB , listdata , oname , cook , receive):
         r1=r1.replace('</A><br>','')
         oname=r1.strip().strip('\n').replace('\t','').split('\n')
         
+        tt=0
         for ttemp in oname:
             oname[tt]=ttemp.strip().strip('\n')
+            tt=tt+1
         oname.append(rt)
     
     bn=r2.count('\"thumbnail\"')#頁作品數
@@ -145,12 +147,13 @@ def findbook(dictB , listdata , oname , cook , receive):
             return dictB,listdata,oname,mindate,pnn,olddate
         pnn=pnn-1
         a=a+1
-        print '\r',a,
+        print '\r',pnn,
         
         sou = BeautifulSoup(tm,"lxml")
         
         ctype=sou.select('.tab.LPEXACT1')[5].text
         clink=sou.a.get('href')
+        check=0
         
         #類型
         if (u'同人CG' in ctype) or (u'同人ノベル' in ctype) or (u'同人誌' in ctype):
@@ -185,7 +188,7 @@ def findbook(dictB , listdata , oname , cook , receive):
         #data處理
         if len(cdata) < 3:#無data
             cdata = '00000000'#填入data
-            check = 4#
+            #check = 4#
         data = cdata
         while listdata.count(data):#重複data判斷
             data = data[:-2] + str(int(data[-2:]) + 1).rjust(2,'0')#尾數+1_十位數填0
@@ -235,7 +238,7 @@ def findbook(dictB , listdata , oname , cook , receive):
         
         if a==(bn):
             break
-        continue
+        #continue
     print '.'
     #print '========'
     return dictB,listdata,oname,mindate,pnn,olddate
@@ -244,8 +247,7 @@ def findbook(dictB , listdata , oname , cook , receive):
 def main(key='',ucheck=0,pn=0,nlink=''):
     #ucheck_0建檔_1更新_2直讀
     
-    #頁顯示數量
-    pnum = 50
+    pnum = 50#頁顯示數量
     mlink = 'http://www.doujinshi.org/'
 
     #cookis_語言預設英文，透過cookie設定。
@@ -348,9 +350,10 @@ def main(key='',ucheck=0,pn=0,nlink=''):
         else:
             fout = open('output/'+key.decode('utf8') + '_doujishiv1.txt', 'w')#寫入模式開檔
             fout.write('doujishi\n')
-            fout.write('!' + key + '_' + nid.encode('utf8') + '\n!總筆數' + str(pn).encode('utf8') +'_'+ strftime("%Y/%m/%d,%H:%M")+'->')
+            fout.write('!' + key + '_' + nid.encode('utf8') + '_!'+link+'\n')
+            fout.write('!總筆數' + str(pn).encode('utf8') +'_'+ strftime("%Y/%m/%d,%H:%M")+'->')
         
-        print key , pn , 'num\n========v1'
+        print '==doujishi' , pn, '筆'
         time.sleep(1)
         p = 0#頁
         #建空輸出用字典與陣列
@@ -394,7 +397,7 @@ def main(key='',ucheck=0,pn=0,nlink=''):
               ]
         nb=0
         for w in range(len(listw)):
-                nb= nb+ len(dictB["dict"+str(w+1)])
+            nb= nb+ len(dictB["dict"+str(w+1)])
         
         #輸出
         if ucheck == 1:
@@ -414,7 +417,7 @@ def main(key='',ucheck=0,pn=0,nlink=''):
                 fout.write('[')
                 for tm in oname:#別名
                     fout.write(tm.encode('utf8')+'_')
-                fout.write(']')
+                fout.write(']_')
             mindate=mindate[:4]+mindate[8:]
             fout.write(str(mindate[:])+'\n')#出道年
             for w in range(len(listw)):
@@ -429,7 +432,7 @@ def main(key='',ucheck=0,pn=0,nlink=''):
     #
     return
 
-#main(ucheck=0)
+#main(key='目目蓮',ucheck=0)
 
 #已知作者頁面，給定參數建檔。(跳過特殊符號用)
 #main(key='木星在住',ucheck=2,pn=78,nlink='http://www.doujinshi.org/browse/author/36341/Mokusei-Zaijuu/')
